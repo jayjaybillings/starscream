@@ -1,0 +1,20 @@
+This code has an Autoconf-enabled build system. You should be able to compile
+and install it with:
+
+./configure
+make
+make check
+make install
+
+If you have special build requirements, check 
+
+./configure --help
+
+If, for some reason, you do not have autoconf or cannot build with autoconf,
+Makefile.back should work for you with some minor edits.
+
+Please don't hesitate to email the author if you have questions or comments.
+
+Jay Jay Billings
+jayjaybillings@gmail.com
+20100213

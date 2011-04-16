@@ -1,0 +1,67 @@
+20090607 20:16
+
+I've implemented some bug fixes that have accumulated over the past few months. Most of the bugs were identified by the Steven Boada or me. Jihoon,
+a user, recently pointed out a bug in the calculation of particle mass, but that fix is on going. 
+
+The list of bugs is extensive, but here goes:
+
+	Added a copy tag for dealing with copied galaxies.
+	Added epsabs and epsrel parameters to the header file for integration tolerances.
+	Removed threading.
+	Fixed a bug in calling the dispersion routine and the dispersion grid.
+	Added a "load_gadget2_galaxy" routine for reading gadget snapshots, (best fix yet! :-P).
+	Fixed a bug in the mass assignment in the creation of gadget snapshots.
+	Fixed a bug in the Makefile.
+	REVERTED to the 85% estimate of the disk scale length using the fitting formula in MMW98. The new routine was underestimating the scale length.
+
+The following files were editted:
+
+	Makefile
+	starscream_init.c
+	starscream_io.c
+	starscream_vel.c
+	
+Jay
+
+-----
+
+20081022 10:44
+
+This update implements the proper iterative solution for finding the disk scale length instead of using the 15% approximation, [MMW,98].
+
+This update also adjusts the bounds on the integrator to work with certain parameters.
+
+Jay
+
+-----
+
+20081016 21:19
+
+Steven Boada found a bug where the code tried to look beyond the edge of the dispersion grid and caused a segmentation fault. 
+
+Several other bugs have been noticed and fixed by the author. 
+
+The most notable change in the release is the removal of user-controlled random numbers. Starscream manages those on its own now.
+
+Jay 
+
+-----
+
+20080902 12:58
+
+Dowon, a user, just identified a bug where the code compiles but crashes with a segmentation fault while running the test case.
+
+This bug can be fixed by changing the size of the "green" and "potential" arrays in starscream_init.c to "double" from "double *" or by 
+downloading a new version of the code.
+
+Jay
+
+-----
+
+20080826 16:09
+
+Just identified a bug when trying to create disks for large m_d, j_d, and lambda where the GSL qags integration routine fails to converge.
+
+This can be fixed by changing the tolerance in the calls to the QAGS routines from 0.0 to something like 1.0E-20 or downloading a new version of the code.
+
+Jay
