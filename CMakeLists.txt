@@ -9,6 +9,9 @@ project (Starscream)
 set (Starscream_VERSION_MAJOR 2)
 set (Starscream_VERSION_MINOR 0)
 
+# Instruct CMake to create shared libraries
+set (BUILD_SHARED_LIBS ON)
+
 # Setup a header file to hold configuration variables for Starscream
 configure_file (
   "${PROJECT_SOURCE_DIR}/src/starscreamConfig.h.in"

@@ -1,0 +1,177 @@
+#------------------------------------------------------------------------------
+#
+# Filename: Makefile
+# Author: Jay Billings
+# Author's email: jayjaybillings@gmail.com
+# Description: This is the makefile for Starscream. Starscream creates 
+# 	       galaxies. 
+#
+#	       Starscream uses the GNU Scientific Library (GSL) and the
+#	       Fastest Fourier Transforms in the West (FFTW), version 3.
+#	       Both codes should be compiled with the -fPIC compiler option
+#	       for the starscream library to properly compile.
+#
+#	       There are several options that you must edit below.
+#	       1.) Change the value of INS_DIR to your preferred install
+#	           location.
+#	       2.) Pick your compiler type by removing the comment infront
+#	           of COMPILER = "GNU" or COMPILER = "Intel".
+#	       3.) Edit the compiler specific section to reflect the proper
+#	           location of the headers and libraries for the GSL and FFTW
+#	           libraries.
+#	       4.) Set any optimization flags after OPTIMIZE.
+#
+#	       After you have set these options, type "make" and "make install"
+#	       to compile and install the library. You may test it before
+#	       installation by typing "make test" to run the example
+#	       starscream.c test code and you may clean the compile directory
+#	       by typing "make clean".
+#	       		
+#
+# Copyright Information:
+#
+# Copyright (c) 2008, 2009       Jay Jay Billings
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+# The license is also available at:
+#
+#		http://www.gnu.org/copyleft/gpl.html .
+#
+# Date: 2009/06/07
+#
+#------------------------------------------------------------------------------
+
+# Install directory
+INS_DIR = /home/jaybilly/research/starscream
+
+# Compiler type
+COMPILER = "GNU"
+#COMPILER = "Intel"
+
+ifeq ($(COMPILER),"GNU")
+
+#----- GCC info -----#
+# Compiler Info
+CC     = gcc -fopenmp 
+OPTIMIZE = -O3 
+# AMD Barcelona-specific, (Phenom X4, Phenom X3), GCC optimization flags
+OPTIMIZE += -msse4a -march=amdfam10
+
+# Libraries
+GSL_LIBS = -L/opt/gsl-1.9_gcc-4.3/lib
+FFTW_LIBS = -L/opt/fftw-3.1.2_gcc-4.3/lib
+
+# Includes
+GSL_INC = -I/opt/gsl-1.9_gcc-4.3/include
+FFTW_INC = -I/opt/fftw-3.1.2_gcc-4.3/include
+
+endif
+
+ifeq ($(COMPILER),"Intel")
+
+#----- ICC info-----#
+# Compiler Info
+CC     = icc
+OPTIMIZE = -O3
+
+# Libraries
+GSL_LIBS = -L/opt/gsl-1.9_intel-10.1.015/lib
+FFTW_LIBS = -L/opt/fftw-3.1.2_icc-10.1.015/lib
+
+# Includes
+GSL_INC = -I/opt/gsl-1.9_intel-10.1.015/include
+FFTW_INC = -I/opt/fftw-3.1.2_icc-10.1.015/include
+
+endif
+
+# Executable
+EXEC   = starscream
+
+# Compiler Flags
+OPTIONS = $(OPTIMIZE) $(OPT)
+CFLAGS = $(OPTIONS) $(GSL_INC) $(FFTW_INC)
+GSL_LIBS += -lgsl -lgslcblas
+FFTW_LIBS += -lfftw3 -lfftw3_threads
+LIBS = -g $(GSL_LIBS) $(FFTW_LIBS) -lm
+
+ifeq ($(COMPILER),"GNU")
+
+# Object Files
+OBJS   = starscream_init.lo starscream_io.lo starscream_pf.lo \
+	 starscream_structure.lo starscream_vel.lo
+
+$(EXEC): $(OBJS) 
+	libtool --mode=link $(CC) $(CFLAGS) -o libstarscream.la $(OBJS) \
+        -rpath $(INS_DIR) $(LIBS)
+
+install:
+	libtool --mode=install cp libstarscream.la $(INS_DIR)/libstarscream.la
+
+starscream_init.lo: starscream_init.c
+	libtool --mode=compile ${CC} ${CFLAGS} -c starscream_init.c
+
+starscream_io.lo: starscream_io.c
+	libtool --mode=compile ${CC} ${CFLAGS} -c starscream_io.c
+
+starscream_pf.lo: starscream_pf.c
+	libtool --mode=compile ${CC} $(CFLAGS) -c starscream_pf.c
+
+starscream_structure.lo: starscream_structure.c
+	libtool --mode=compile ${CC} $(CFLAGS) -c starscream_structure.c
+
+starscream_vel.lo: starscream_vel.c
+	libtool --mode=compile ${CC} $(CFLAGS) -c starscream_vel.c
+
+endif
+
+ifeq ($(COMPILER),"Intel")
+
+# Object Files
+OBJS   = starscream_init.o starscream_io.o starscream_pf.o \
+	 starscream_structure.o starscream_vel.o
+
+CFLAGS += -fPIC
+
+$(EXEC): $(OBJS) 
+	ld -shared -o libstarscream.so $(OBJS) $(LIBS)
+
+install:
+	install libstarscream.so $(INS_DIR)/libstarscream.so
+
+starscream_init.o: starscream_init.c
+	${CC} ${CFLAGS} -c starscream_init.c
+
+starscream_io.o: starscream_io.c
+	${CC} ${CFLAGS} -c starscream_io.c
+
+starscream_pf.o: starscream_pf.c
+	${CC} $(CFLAGS) -c starscream_pf.c
+
+starscream_structure.o: starscream_structure.c
+	${CC} $(CFLAGS) -c starscream_structure.c
+
+starscream_vel.o: starscream_vel.c
+	${CC} $(CFLAGS) -c starscream_vel.c
+
+endif
+
+test:
+	$(CC) -o starscream $(GSL_INC) $(FFTW_INC) starscream.c -L$(INS_DIR) -lstarscream
+	time ./starscream
+
+clean:
+	rm -rf $(OBJS) libstarscream.* *.lo *.o .libs/
+
