@@ -7,8 +7,11 @@ set (LIB Starscream)
 # Set the C++ src files
 file (GLOB CXX_SRC *.cpp)
 
+# Set the C src files
+file (GLOB C_SRC *.c)
+
 # Add the library
-add_library (${LIB} ${CXX_SRC})
+add_library (${LIB} ${CXX_SRC} ${C_SRC})
 
 # Set the install targets
 install (TARGETS
