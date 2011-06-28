@@ -678,6 +678,7 @@ on phoenix.localdomain
 config.status:1089: creating Makefile
 config.status:1089: creating src/Makefile
 config.status:1089: creating config.h
+config.status:1269: config.h is unchanged
 config.status:1317: executing depfiles commands
 config.status:1317: executing libtool commands
 
