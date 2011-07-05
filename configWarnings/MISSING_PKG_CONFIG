@@ -1,7 +1,0 @@
------ WARNING! -----
-
-PKG-CONFIG appears to be missing from your system. Please install using the
-back-up makefile or set the "--with-fftw3" option as described with
-"configure --help".
-
------ END WARNING ----
