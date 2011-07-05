@@ -42,7 +42,8 @@
 *///---------------------------------------------------------------------------
 
 // Get the configuration header
-#include "../config.h"
+//#include "../config.h"
+#include "starscreamConfig.h"
 
 // Include the starscream header
 #include "starscream.h"
@@ -545,19 +546,28 @@ int set_galaxy_potential(galaxy *gal, int dump) {
     #if USE_FFTW_THREADS == 1 
     printf("Setting up threaded FFT call..."); 
     fftw_init_threads();
-    fftw_plan_with_nthreads(4);
+    fftw_plan_with_nthreads(2);
     printf(" Done!\n"); 
     #endif
 
     // Allocate grid storage variables
-    if (!(green = calloc(pow(Ng,3),sizeof(double)))) {
+    /*if (!(green = calloc(pow(Ng,3),sizeof(double)))) {
        fprintf(stderr,"Unable to allocate space for Green's function.\n");
        return -1;
     }
     if (!(potential = calloc(pow(Ng,3),sizeof(double)))) {
        fprintf(stderr,"Unable to allocate space for potential buffer.\n");
        return -1;
+    }*/
+    if (!(green = fftw_malloc(Ng*Ng*Ng*sizeof(double)))) {
+       fprintf(stderr,"Unable to allocate space for Green's function.\n");
+       return -1;
     }
+    if (!(potential = fftw_malloc(Ng*Ng*Ng*sizeof(double)))) {
+       fprintf(stderr,"Unable to allocate space for potential buffer.\n");
+       return -1;
+    }
+
     if (!(green_grid=calloc(Ng,sizeof(double *)))) {
        fprintf(stderr,"Unable to create Green's function x axis.\n");
        return -1;
@@ -763,7 +773,7 @@ int set_galaxy_potential(galaxy *gal, int dump) {
     fftw_destroy_plan(fft_green);
 
     // Kill the storage arrays since they are no longer needed.
-    free(green); free(potential);
+    fftw_free(green); fftw_free(potential);
     for (i = 0; i < Ng; ++i) {
         for (j = 0; j < Ng; ++j) {
             free(green_grid[i][j]);
