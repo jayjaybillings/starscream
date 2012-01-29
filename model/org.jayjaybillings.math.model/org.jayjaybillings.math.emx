@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+  <uml:Package xmi:id="_ynf7ADQPEeGaQtXVyWe7QA" name="org.jayjaybillings.math">
+    <eAnnotations xmi:id="_ynf7ATQPEeGaQtXVyWe7QA" source="uml2.diagrams" references="_ynf7AjQPEeGaQtXVyWe7QA">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ynf7AjQPEeGaQtXVyWe7QA" type="Freeform" name="Main"/>
+    </eAnnotations>
+    <packageImport xmi:id="_ynf7AzQPEeGaQtXVyWe7QA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_9o1ycDQYEeGaQtXVyWe7QA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5cdgQDTWEeG09e7f60ohfA" name="random">
+      <eAnnotations xmi:id="_5fN5UDTWEeG09e7f60ohfA" source="uml2.diagrams" references="_5fOgYDTWEeG09e7f60ohfA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_5fOgYDTWEeG09e7f60ohfA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="__EYyEDTWEeG09e7f60ohfA" type="Class" name="RNG Class Diagram">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_A767cDTXEeG09e7f60ohfA" element="_A7Yv8DTXEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_A8BCEDTXEeG09e7f60ohfA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_A8BCETTXEeG09e7f60ohfA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_A8BpIDTXEeG09e7f60ohfA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_A8CQMDTXEeG09e7f60ohfA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_A8C3QDTXEeG09e7f60ohfA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_A8EFYDTXEeG09e7f60ohfA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_A8EscDTXEeG09e7f60ohfA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_A8N2YDTXEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_A8bRwDTXEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A77igDTXEeG09e7f60ohfA" x="6706" y="2882"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OowCYDTYEeG09e7f60ohfA" type="Text" fontName="Sans Serif" fontHeight="10" description="Random Number Generator Class Diagram" transparency="0" lineColor="0" lineWidth="2">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OoxQgDTYEeG09e7f60ohfA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Oox3kDTYEeG09e7f60ohfA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OowCYTTYEeG09e7f60ohfA" x="2796" y="913" width="13784" height="941"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_dyrUQDTrEeG09e7f60ohfA" element="_dynp4DTrEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dysiYDTrEeG09e7f60ohfA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_dysiYTTrEeG09e7f60ohfA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_dytJcDTrEeG09e7f60ohfA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_dytJcTTrEeG09e7f60ohfA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_dytwgDTrEeG09e7f60ohfA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_dyuXkDTrEeG09e7f60ohfA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_dyuXkTTrEeG09e7f60ohfA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_dyuXkjTrEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_dyu-oDTrEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyrUQTTrEeG09e7f60ohfA" x="6573" y="9703"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_XY1rEDTwEeG09e7f60ohfA" type="Note" fontName="Sans Serif" fontHeight="8" description="&lt;p>All implementations of this class are tested with Dieharder, http://www.phy.duke.edu/~rgb/General/dieharder.php, outside of the standard junit harness.&lt;/p>" transparency="0" lineColor="14263149" lineWidth="1">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_XY3gQDTwEeG09e7f60ohfA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_XY3gQTTwEeG09e7f60ohfA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <styles xmi:type="notation:TextStyle" xmi:id="_XY1rETTwEeG09e7f60ohfA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_XY1rEjTwEeG09e7f60ohfA"/>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XY1rEzTwEeG09e7f60ohfA" x="14069" y="4366" width="6249" height="2824"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sz5JUDTuEeG09e7f60ohfA" element="_sztjIDTuEeG09e7f60ohfA" source="_dyrUQDTrEeG09e7f60ohfA" target="_A767cDTXEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_sz6XcDTuEeG09e7f60ohfA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sz6-gDTuEeG09e7f60ohfA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sz6-gTTuEeG09e7f60ohfA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sz6XcTTuEeG09e7f60ohfA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sz5JUTTuEeG09e7f60ohfA" points="[-2, -26, -13, 168]$[-25, -123, -36, 71]"/>
+          </edges>
+          <edges xmi:type="notation:Connector" xmi:id="_i7wUoDTwEeG09e7f60ohfA" type="NoteAttachment" source="_XY1rEDTwEeG09e7f60ohfA" target="_A767cDTXEeG09e7f60ohfA" lineColor="0" lineWidth="2">
+            <styles xmi:type="notation:ArrowStyle" xmi:id="_i7w7sDTwEeG09e7f60ohfA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_i7w7sTTwEeG09e7f60ohfA"/>
+            <element xsi:nil="true"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i7w7sjTwEeG09e7f60ohfA" points="[-110, -7, 158, 24]$[-168, 23, 100, 54]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_A7Yv8DTXEeG09e7f60ohfA" name="RNG" isAbstract="true">
+        <ownedComment xmi:id="_Fxj_QDTYEeG09e7f60ohfA" annotatedElement="_A7Yv8DTXEeG09e7f60ohfA">
+          <body>&lt;p>The RNG class is the abstract base class for all random number generators in the org.jayjaybillings.math package. It uses java.util.Random to set its initial state.&lt;/p></body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_meT-wDTXEeG09e7f60ohfA" name="stateVector" visibility="protected">
+          <ownedComment xmi:id="_Gmb3IDTrEeG09e7f60ohfA" annotatedElement="_meT-wDTXEeG09e7f60ohfA">
+            <body>&lt;p>The state vector of the RNG.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HjFFkDTrEeG09e7f60ohfA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HjEegDTrEeG09e7f60ohfA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_yK4xEDmtEeG3dtvZymf8MA" name="stateSize" visibility="protected">
+          <ownedComment xmi:id="_3QBe4DmtEeG3dtvZymf8MA" annotatedElement="_yK4xEDmtEeG3dtvZymf8MA">
+            <body>&lt;p>The size of the state vector.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_RXDbsDTYEeG09e7f60ohfA" name="RNG" isAbstract="true">
+          <ownedComment xmi:id="_h4AskDTYEeG09e7f60ohfA" annotatedElement="_RXDbsDTYEeG09e7f60ohfA">
+            <body>&lt;p>The constructor&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ht0agDTzEeG09e7f60ohfA" name="seed">
+            <ownedComment xmi:id="_ojOMEDTzEeG09e7f60ohfA" annotatedElement="_ht0agDTzEeG09e7f60ohfA">
+              <body>&lt;p>The seed value with which the RNG should be initialized.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_SDwwsDTYEeG09e7f60ohfA" name="RNG" isAbstract="true">
+          <ownedComment xmi:id="_ivoREDTYEeG09e7f60ohfA" annotatedElement="_SDwwsDTYEeG09e7f60ohfA">
+            <body>&lt;p>A copy constructor. This constructor should be used in cases where a copy of the RNG that produces the exact same numbers as the original is needed. This is particularly useful for testing and debuging.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_UCUvIDTYEeG09e7f60ohfA" name="original" type="_A7Yv8DTXEeG09e7f60ohfA">
+            <ownedComment xmi:id="_sFqYEDTzEeG09e7f60ohfA" annotatedElement="_UCUvIDTYEeG09e7f60ohfA">
+              <body>&lt;p>A second RNG whose state should be copied to create a new RNG.&lt;/p></body>
+            </ownedComment>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Xm1XsDTYEeG09e7f60ohfA" name="getNextInt" isAbstract="true">
+          <ownedComment xmi:id="_ryMdwDTYEeG09e7f60ohfA" annotatedElement="_Xm1XsDTYEeG09e7f60ohfA">
+            <body>&lt;p>This operation returns a randomly generated 32-bit integer.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ZVU50DTYEeG09e7f60ohfA" name="nextInt" direction="return">
+            <ownedComment xmi:id="_xDN3MDTzEeG09e7f60ohfA" annotatedElement="_ZVU50DTYEeG09e7f60ohfA">
+              <body>&lt;p>The integer&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_bc4cMDTYEeG09e7f60ohfA" name="getNextDouble" isAbstract="true">
+          <ownedComment xmi:id="_ykmlsDTYEeG09e7f60ohfA" annotatedElement="_bc4cMDTYEeG09e7f60ohfA">
+            <body>&lt;p>This operation returns a randomly generated 64-bit double-precision floating point number.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_cRxc0DTYEeG09e7f60ohfA" name="double" direction="return">
+            <ownedComment xmi:id="_36QngDTzEeG09e7f60ohfA" annotatedElement="_cRxc0DTYEeG09e7f60ohfA">
+              <body>&lt;p>The double-precision floating-point number.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y0jGMDTYEeG09e7f60ohfA" name="getNextFloat" isAbstract="true">
+          <ownedComment xmi:id="_2KdSEDTYEeG09e7f60ohfA" annotatedElement="_y0jGMDTYEeG09e7f60ohfA">
+            <body>&lt;p>This operation returns a randomly generated 32-bit single-precision floating point number.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_z9nnEDTYEeG09e7f60ohfA" name="float" direction="return">
+            <ownedComment xmi:id="_2caJcDTzEeG09e7f60ohfA" annotatedElement="_z9nnEDTYEeG09e7f60ohfA">
+              <body>&lt;p>The single-precision floating-point number.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dynp4DTrEeG09e7f60ohfA" name="CMWCRNG">
+        <ownedComment xmi:id="_shJzgDTuEeG09e7f60ohfA" annotatedElement="_dynp4DTrEeG09e7f60ohfA">
+          <body>&lt;p>A complimentary multiply-with-carry random number generator with a period of on the order of 2^131104. Based on the work from George Marsaglia (http://school.anhb.uwa.edu.au/personalpages/kwessen/shared/Marsaglia03.html), the implementation provided on Wikipedia, (http://en.wikipedia.org/wiki/Multiply-with-carry), and with the weight &quot;a&quot; taken from Numerical Recipes, 3rd. Edition. This random number generator has been verified to pass the Diehard tests and other tests in the Dieharder library, (http://www.phy.duke.edu/~rgb/General/dieharder.php).&lt;/p></body>
+        </ownedComment>
+        <generalization xmi:id="_sztjIDTuEeG09e7f60ohfA" general="_A7Yv8DTXEeG09e7f60ohfA"/>
+        <ownedAttribute xmi:id="_BZXwoDmyEeG3dtvZymf8MA" name="index" visibility="private">
+          <ownedComment xmi:id="_Mm1HkDmyEeG3dtvZymf8MA" annotatedElement="_BZXwoDmyEeG3dtvZymf8MA">
+            <body>&lt;p>State vector index for the generator&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Dh7_oDmyEeG3dtvZymf8MA" name="addend" visibility="private">
+          <ownedComment xmi:id="_InzGMDmyEeG3dtvZymf8MA" annotatedElement="_Dh7_oDmyEeG3dtvZymf8MA">
+            <body>&lt;p>The addend used for the generator.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_LWJYcDT0EeG09e7f60ohfA" name="CMWCRNG">
+          <ownedComment xmi:id="_RurAwDT0EeG09e7f60ohfA" annotatedElement="_LWJYcDT0EeG09e7f60ohfA">
+            <body>&lt;p>The constructor&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_M2XOADT0EeG09e7f60ohfA" name="seed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NXjPgDT0EeG09e7f60ohfA" name="CMWCRNG">
+          <ownedComment xmi:id="_SpqpYDT0EeG09e7f60ohfA" annotatedElement="_NXjPgDT0EeG09e7f60ohfA">
+            <body>&lt;p>The copy constructor&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_OwlfADT0EeG09e7f60ohfA" name="original" type="_A7Yv8DTXEeG09e7f60ohfA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5UXsDTYEeG09e7f60ohfA" name="getNextLong" visibility="protected">
+          <ownedComment xmi:id="_v17Y8DTYEeG09e7f60ohfA" annotatedElement="_Z5UXsDTYEeG09e7f60ohfA">
+            <body>&lt;p>This operation returns a randomly generated 64-bit &quot;long&quot; integer.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_bQY4UDTYEeG09e7f60ohfA" name="nextLong" direction="return">
+            <ownedComment xmi:id="_v8Da0DTzEeG09e7f60ohfA" annotatedElement="_bQY4UDTYEeG09e7f60ohfA">
+              <body>&lt;p>The long integer.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ynf7BDQPEeGaQtXVyWe7QA">
+      <eAnnotations xmi:id="_ynf7BTQPEeGaQtXVyWe7QA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ynf7BjQPEeGaQtXVyWe7QA">
+      <eAnnotations xmi:id="_ynf7BzQPEeGaQtXVyWe7QA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ynf7CDQPEeGaQtXVyWe7QA">
+      <eAnnotations xmi:id="_ynf7CTQPEeGaQtXVyWe7QA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+  </uml:Package>
+  <Default:Documentation xmi:id="_Fxr7EDTYEeG09e7f60ohfA" base_Comment="_Fxj_QDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_h4DI0DTYEeG09e7f60ohfA" base_Comment="_h4AskDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_ivrUYDTYEeG09e7f60ohfA" base_Comment="_ivoREDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_ryOS8DTYEeG09e7f60ohfA" base_Comment="_ryMdwDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_v1-cQDTYEeG09e7f60ohfA" base_Comment="_v17Y8DTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_ykoa4DTYEeG09e7f60ohfA" base_Comment="_ykmlsDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_2KfHQDTYEeG09e7f60ohfA" base_Comment="_2KdSEDTYEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_GmfhgDTrEeG09e7f60ohfA" base_Comment="_Gmb3IDTrEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_shLosDTuEeG09e7f60ohfA" base_Comment="_shJzgDTuEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_ojRPYDTzEeG09e7f60ohfA" base_Comment="_ojOMEDTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_sFsNQDTzEeG09e7f60ohfA" base_Comment="_sFqYEDTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_v8Eo8DTzEeG09e7f60ohfA" base_Comment="_v8Da0DTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_xDPsYDTzEeG09e7f60ohfA" base_Comment="_xDN3MDTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_2cclsDTzEeG09e7f60ohfA" base_Comment="_2caJcDTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_36ScsDTzEeG09e7f60ohfA" base_Comment="_36QngDTzEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_RuuEEDT0EeG09e7f60ohfA" base_Comment="_RurAwDT0EeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_SptssDT0EeG09e7f60ohfA" base_Comment="_SpqpYDT0EeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_3QHlgDmtEeG3dtvZymf8MA" base_Comment="_3QBe4DmtEeG3dtvZymf8MA"/>
+  <Default:Documentation xmi:id="_In3XoDmyEeG3dtvZymf8MA" base_Comment="_InzGMDmyEeG3dtvZymf8MA"/>
+  <Default:Documentation xmi:id="_Mm3j0DmyEeG3dtvZymf8MA" base_Comment="_Mm1HkDmyEeG3dtvZymf8MA"/>
+</xmi:XMI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
+  <uml:Package xmi:id="_LdbpADTwEeG09e7f60ohfA" name="org.jayjaybillings.math.tests">
+    <eAnnotations xmi:id="_LdbpATTwEeG09e7f60ohfA" source="uml2.diagrams" references="_LdbpAjTwEeG09e7f60ohfA">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LdbpAjTwEeG09e7f60ohfA" type="Freeform" name="Main"/>
+    </eAnnotations>
+    <packageImport xmi:id="_LdbpAzTwEeG09e7f60ohfA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_LPRmUTTyEeG09e7f60ohfA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oBL9YDTwEeG09e7f60ohfA" name="random">
+      <eAnnotations xmi:id="_oBNLgDTwEeG09e7f60ohfA" source="uml2.diagrams" references="_oBNLgTTwEeG09e7f60ohfA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oBNLgTTwEeG09e7f60ohfA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_qjW_MDTwEeG09e7f60ohfA" type="Class" name="Random Tests Class Diagram">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_s-yf0DTwEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_s-zt8DTwEeG09e7f60ohfA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_s-zt8TTwEeG09e7f60ohfA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_s-08EDTwEeG09e7f60ohfA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_s-08ETTwEeG09e7f60ohfA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_s-2KMDTwEeG09e7f60ohfA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_s-2xQDTwEeG09e7f60ohfA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_s-3YUDTwEeG09e7f60ohfA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_s-3YUTTwEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_s-3YUjTwEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
+            <element xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_dynp4DTrEeG09e7f60ohfA?org.jayjaybillings.math/random/CMWCRNG?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s-yf0TTwEeG09e7f60ohfA" x="7512" y="7512"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_u75swDTwEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_u77h8DTwEeG09e7f60ohfA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_u77h8TTwEeG09e7f60ohfA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_u78JADTwEeG09e7f60ohfA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_u78wEDTwEeG09e7f60ohfA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_u78wETTwEeG09e7f60ohfA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_u79XIDTwEeG09e7f60ohfA" type="AttributeCompartment" collapsed="true"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_u79-MDTwEeG09e7f60ohfA" type="OperationCompartment" collapsed="true"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_u79-MTTwEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_u7-lQDTwEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
+            <element xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_A7Yv8DTXEeG09e7f60ohfA?org.jayjaybillings.math/random/RNG?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u75swTTwEeG09e7f60ohfA" x="12207" y="3756"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_9kS5gDTwEeG09e7f60ohfA" type="Text" fontName="Sans Serif" fontHeight="14" description="Random Number Testing Class Diagram" transparency="0" lineColor="0" lineWidth="2">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_9kS5gTTwEeG09e7f60ohfA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_9kS5gjTwEeG09e7f60ohfA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9kS5gzTwEeG09e7f60ohfA" x="3053" y="1169" width="13755" height="913"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_imCRYDTyEeG09e7f60ohfA" element="_LR8f0DTyEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_imDfgDTyEeG09e7f60ohfA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_imDfgTTyEeG09e7f60ohfA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_imEGkDTyEeG09e7f60ohfA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_imEGkTTyEeG09e7f60ohfA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_imEGkjTyEeG09e7f60ohfA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_imEtoDTyEeG09e7f60ohfA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_imEtoTTyEeG09e7f60ohfA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_imFUsDTyEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_imFUsTTyEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_imCRYTTyEeG09e7f60ohfA" x="1565" y="4069"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_u7_zYDTwEeG09e7f60ohfA" source="_s-yf0DTwEeG09e7f60ohfA" target="_u75swDTwEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_u8AacDTwEeG09e7f60ohfA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u8AacjTwEeG09e7f60ohfA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u8BBgDTwEeG09e7f60ohfA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8AacTTwEeG09e7f60ohfA" y="-200"/>
+            </children>
+            <element xmi:type="uml:Generalization" href="org.jayjaybillings.math.emx#_sztjIDTuEeG09e7f60ohfA?org.jayjaybillings.math/random/CMWCRNG/%3CGeneralization%3E?"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u7_zYTTwEeG09e7f60ohfA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_55eisDTyEeG09e7f60ohfA" element="_55ZqMDTyEeG09e7f60ohfA" source="_imCRYDTyEeG09e7f60ohfA" target="_s-yf0DTwEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_55fJwDTyEeG09e7f60ohfA" type="KindLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_55fJwjTyEeG09e7f60ohfA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_55fJxDTyEeG09e7f60ohfA" type="Kind"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_55fJwzTyEeG09e7f60ohfA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_55fJwTTyEeG09e7f60ohfA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_55eisTTyEeG09e7f60ohfA" points="[42, 28, -107, -90]$[210, 113, 61, -5]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LR8f0DTyEeG09e7f60ohfA" name="CMWCRNGOutputGenerator" clientDependency="_LWY68DTyEeG09e7f60ohfA _55ZqMDTyEeG09e7f60ohfA">
+        <ownedComment xmi:id="_LR-8EDTyEeG09e7f60ohfA" annotatedElement="_LR8f0DTyEeG09e7f60ohfA">
+          <body>&lt;p>This class generates output for the Dieharder RNG testing suite using the CMWC-RNG. It is &lt;b>not &lt;/b>a standard junit test and it must be called from the command line. The proper command to test this on Linux is &quot;./cmwc-streaming | dieharder -g 200 -a&quot; if dieharder is on the path.&lt;/p></body>
+        </ownedComment>
+        <ownedOperation xmi:id="_LUk9EDTyEeG09e7f60ohfA" name="main" visibility="public" isStatic="true">
+          <ownedComment xmi:id="_LUk9ETTyEeG09e7f60ohfA" annotatedElement="_LUk9EDTyEeG09e7f60ohfA">
+            <body>&lt;p>The&amp;nbsp;all-powerful&amp;nbsp;main()!&amp;nbsp;This&amp;nbsp;operation&amp;nbsp;generates&amp;nbsp;the&amp;nbsp;output&amp;nbsp;and&amp;nbsp;writes&amp;nbsp;it&amp;nbsp;to&amp;nbsp;a&amp;nbsp;binary&amp;nbsp;stream&amp;nbsp;on&amp;nbsp;stdout.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_LUnZUDTyEeG09e7f60ohfA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LUoAYDTyEeG09e7f60ohfA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LUoncDTyEeG09e7f60ohfA"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_LWY68DTyEeG09e7f60ohfA" client="_LR8f0DTyEeG09e7f60ohfA">
+        <supplier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=CMWCRNG%5Bjcu%5Ename=CMWCRNG.java%5Bjpack%5Ename=random%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=org.jayjaybillings.math%5D%5D%5D%5D$uml.Class"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_55ZqMDTyEeG09e7f60ohfA" client="_LR8f0DTyEeG09e7f60ohfA">
+        <supplier xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_dynp4DTrEeG09e7f60ohfA?org.jayjaybillings.math/random/CMWCRNG?"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_LdbpBDTwEeG09e7f60ohfA">
+      <eAnnotations xmi:id="_LdbpBTTwEeG09e7f60ohfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_LdbpBjTwEeG09e7f60ohfA">
+      <eAnnotations xmi:id="_LdbpBzTwEeG09e7f60ohfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_LdbpCDTwEeG09e7f60ohfA">
+      <eAnnotations xmi:id="_LdbpCTTwEeG09e7f60ohfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_LWVQkDTyEeG09e7f60ohfA">
+      <eAnnotations xmi:id="_LWV3oDTyEeG09e7f60ohfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
+  </uml:Package>
+  <Default:Documentation xmi:id="_MKa_8DTyEeG09e7f60ohfA" base_Comment="_LR-8EDTyEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_MKc1IDTyEeG09e7f60ohfA" base_Comment="_LUk9ETTyEeG09e7f60ohfA"/>
+  <JavaTransformation50:JavaArray xmi:id="_MKeqUDTyEeG09e7f60ohfA" base_TypedElement="_LUnZUDTyEeG09e7f60ohfA"/>
+</xmi:XMI>
