@@ -25,16 +25,15 @@ public class CMWCRNGOutputGenerator {
 		// Local Declarations - all times in milliseconds
 		CMWCRNG cmwcGenerator = new CMWCRNG((int) System.nanoTime());
 		Date currentDate = new Date();
-		long startTime = 0, quittingTime = 0,
-		     runTime = 3600000; // 10 hours in milliseconds
+		long startTime = 0, quittingTime = 0, runTime = 3600000; // 10 hours in milliseconds
 		int value = 0;
-		
+
 		// Setup starting time
 		startTime = currentDate.getTime();
 		quittingTime = startTime + runTime;
-				
+
 		// Loop until the max time is met
-		while(currentDate.getTime() < quittingTime) {
+		while (currentDate.getTime() < quittingTime) {
 			// Get the next random integer value
 			value = cmwcGenerator.getNextInt();
 			// Write the value to the output stream in binary
