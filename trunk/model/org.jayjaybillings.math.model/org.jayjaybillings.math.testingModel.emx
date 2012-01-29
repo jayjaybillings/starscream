@@ -93,7 +93,7 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_LR8f0DTyEeG09e7f60ohfA" name="CMWCRNGOutputGenerator" clientDependency="_LWY68DTyEeG09e7f60ohfA _55ZqMDTyEeG09e7f60ohfA">
         <ownedComment xmi:id="_LR-8EDTyEeG09e7f60ohfA" annotatedElement="_LR8f0DTyEeG09e7f60ohfA">
-          <body>&lt;p>This class generates output for the Dieharder RNG testing suite using the CMWC-RNG. It is &lt;b>not &lt;/b>a standard junit test and it must be called from the command line. The proper command to test this on Linux is &quot;./cmwc-streaming | dieharder -g 200 -a&quot; if dieharder is on the path.&lt;/p></body>
+          <body>&lt;p>This class generates output for the Dieharder RNG testing suite using the CMWC-RNG. It is &lt;b>not &lt;/b>a standard junit test and it must be called from the command line. It will dump binary integers to stdout for ten hours and Dieharder will consume lots of resources, so be mindful when you run this program. The proper command to test this on Linux is &quot;java -cp  &amp;lt;path-to-Starscream-workspace&amp;gt;/org.jayjaybillings.math/bin/:. random/CMWCRNGOutputGenerator | dieharder -g 200 -a&quot; if Dieharder is on the path and you are launching from the org.jayjaybillings.math.tests/bin directory.&lt;/p></body>
         </ownedComment>
         <ownedOperation xmi:id="_LUk9EDTyEeG09e7f60ohfA" name="main" visibility="public" isStatic="true">
           <ownedComment xmi:id="_LUk9ETTyEeG09e7f60ohfA" annotatedElement="_LUk9EDTyEeG09e7f60ohfA">
