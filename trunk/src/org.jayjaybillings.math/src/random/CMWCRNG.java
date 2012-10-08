@@ -1,6 +1,3 @@
-/**
- * 
- */
 package random;
 
 import java.util.Random;
@@ -33,7 +30,7 @@ public class CMWCRNG extends RNG {
 	 * <!-- begin-UML-doc -->
 	 * <p>The constructor</p>
 	 * <!-- end-UML-doc -->
-	 * @param seed
+	 * @param seed <p>The seed with which the generator should be initialized.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public CMWCRNG(int seed) {
@@ -69,7 +66,7 @@ public class CMWCRNG extends RNG {
 	 * <!-- begin-UML-doc -->
 	 * <p>The copy constructor</p>
 	 * <!-- end-UML-doc -->
-	 * @param original
+	 * @param original <p>A second RNG whose state should be copied to create a new RNG.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public CMWCRNG(RNG original) {
@@ -88,8 +85,10 @@ public class CMWCRNG extends RNG {
 	}
 
 	/** 
-	 * (non-Javadoc)
-	 * @see RNG#getNextInt()
+	 * <!-- begin-UML-doc -->
+	 * <p>This operation returns a randomly generated 32-bit integer.</p>
+	 * <!-- end-UML-doc -->
+	 * @return <p>The integer</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public int getNextInt() {
@@ -129,8 +128,10 @@ public class CMWCRNG extends RNG {
 	}
 
 	/** 
-	 * (non-Javadoc)
-	 * @see RNG#getNextDouble()
+	 * <!-- begin-UML-doc -->
+	 * <p>This operation returns a randomly generated 64-bit double-precision floating point number.</p>
+	 * <!-- end-UML-doc -->
+	 * @return <p>The double-precision floating-point number.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public double getNextDouble() {
@@ -140,8 +141,10 @@ public class CMWCRNG extends RNG {
 	}
 
 	/** 
-	 * (non-Javadoc)
-	 * @see RNG#getNextFloat()
+	 * <!-- begin-UML-doc -->
+	 * <p>This operation returns a randomly generated 32-bit single-precision floating point number.</p>
+	 * <!-- end-UML-doc -->
+	 * @return <p>The single-precision floating-point number.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public float getNextFloat() {

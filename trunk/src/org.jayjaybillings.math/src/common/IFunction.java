@@ -25,81 +25,46 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
  * POSSIBILITY OF SUCH DAMAGE.
  *******************************************************************************/
-
-package random;
+/**
+ * 
+ */
+package common;
 
 /** 
  * <!-- begin-UML-doc -->
- * <p>The RNG class is the abstract base class for all random number generators in the org.jayjaybillings.math package. It uses java.util.Random to set its initial state.</p>
+ * <p>The IFunction interface represents a mathematical function. </p>
  * <!-- end-UML-doc -->
  * @author jaybilly
  * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public abstract class RNG {
+public interface IFunction {
 	/** 
 	 * <!-- begin-UML-doc -->
-	 * <p>The state vector of the RNG.</p>
+	 * <p>This operation evaluates the function for the vector x of length n. If n is greater than the dimensionality d of the function, then the function is evaluated using the first d values of x. However, if n is less than d, then function will return 0.0.</p>
 	 * <!-- end-UML-doc -->
+	 * @param x <p>A vector of length n = d where d is the function's dimensionality at which the function is evaluated.</p>
+	 * @return <p>The value of the function at x.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	protected long[] stateVector = null;
+	public double evaluate(double[] x);
 
 	/** 
 	 * <!-- begin-UML-doc -->
-	 * <p>The size of the state vector.</p>
+	 * <p>This operation works the same as evaluate(x), but with an additional weight argument than can be used to integrate another function g(x) that resembles f.</p>
 	 * <!-- end-UML-doc -->
+	 * @param x <p>A vector of length n = d where d is the function's dimensionality at which the function is evaluated.</p>
+	 * @param weight <p>A weight w that can be used to integrate a function g(x) that resembles this function using the relation integral(g) = sum[0,i](w_i*g(x)).</p>
+	 * @return <p>The value of the function at x.</p>
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	protected int stateSize;
+	public double evaluate(double[] x, double weight);
 
 	/** 
 	 * <!-- begin-UML-doc -->
-	 * <p>The constructor</p>
+	 * <p>This operation returns the dimensionality of the function.</p>
 	 * <!-- end-UML-doc -->
-	 * @param seed <p>The seed value with which the RNG should be initialized.</p>
+	 * @return
 	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public RNG(int seed) {
-		// begin-user-code
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <p>A copy constructor. This constructor should be used in cases where a copy of the RNG that produces the exact same numbers as the original is needed. This is particularly useful for testing and debuging.</p>
-	 * <!-- end-UML-doc -->
-	 * @param original <p>A second RNG whose state should be copied to create a new RNG.</p>
-	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public RNG(RNG original) {
-		// begin-user-code
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <p>This operation returns a randomly generated 32-bit integer.</p>
-	 * <!-- end-UML-doc -->
-	 * @return <p>The integer</p>
-	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public abstract int getNextInt();
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <p>This operation returns a randomly generated 64-bit double-precision floating point number.</p>
-	 * <!-- end-UML-doc -->
-	 * @return <p>The double-precision floating-point number.</p>
-	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public abstract double getNextDouble();
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <p>This operation returns a randomly generated 32-bit single-precision floating point number.</p>
-	 * <!-- end-UML-doc -->
-	 * @return <p>The single-precision floating-point number.</p>
-	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public abstract float getNextFloat();
+	public int getDimensionality();
 }
