@@ -2,7 +2,7 @@
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
   <uml:Package xmi:id="_ynf7ADQPEeGaQtXVyWe7QA" name="org.jayjaybillings.math">
     <eAnnotations xmi:id="_ynf7ATQPEeGaQtXVyWe7QA" source="uml2.diagrams" references="_ynf7AjQPEeGaQtXVyWe7QA">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ynf7AjQPEeGaQtXVyWe7QA" type="Freeform" name="Main"/>
@@ -53,9 +53,9 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_dyuXkTTrEeG09e7f60ohfA" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_dyuXkjTrEeG09e7f60ohfA" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_dyu-oDTrEeG09e7f60ohfA" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyrUQTTrEeG09e7f60ohfA" x="6573" y="9703"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyrUQTTrEeG09e7f60ohfA" x="7825" y="9390"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_XY1rEDTwEeG09e7f60ohfA" type="Note" fontName="Sans Serif" fontHeight="8" description="&lt;p>All implementations of this class are tested with Dieharder, http://www.phy.duke.edu/~rgb/General/dieharder.php, outside of the standard junit harness.&lt;/p>" transparency="0" lineColor="14263149" lineWidth="1">
+          <children xmi:type="notation:Shape" xmi:id="_XY1rEDTwEeG09e7f60ohfA" type="Note" fontName="Sans Serif" fontHeight="8" description="&lt;p>All implementations of this class are tested with Dieharder, http://www.phy.duke.edu/~rgb/General/dieharder.php, outside of the standard junit harness.&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_XY3gQDTwEeG09e7f60ohfA" type="DiagramName">
               <element xsi:nil="true"/>
             </children>
@@ -65,7 +65,7 @@
             <styles xmi:type="notation:TextStyle" xmi:id="_XY1rETTwEeG09e7f60ohfA"/>
             <styles xmi:type="notation:LineTypeStyle" xmi:id="_XY1rEjTwEeG09e7f60ohfA"/>
             <element xsi:nil="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XY1rEzTwEeG09e7f60ohfA" x="14069" y="4366" width="6249" height="2824"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XY1rEzTwEeG09e7f60ohfA" x="20658" y="4695" width="6249" height="2824"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sz5JUDTuEeG09e7f60ohfA" element="_sztjIDTuEeG09e7f60ohfA" source="_dyrUQDTrEeG09e7f60ohfA" target="_A767cDTXEeG09e7f60ohfA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
@@ -84,6 +84,9 @@
           </edges>
         </contents>
       </eAnnotations>
+      <ownedComment xmi:id="_CwuTcM4CEeG6JcVkF9pruA" annotatedElement="_5cdgQDTWEeG09e7f60ohfA">
+        <body>&lt;p>This package contains pseudorandom number generators.&lt;/p></body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_A7Yv8DTXEeG09e7f60ohfA" name="RNG" isAbstract="true">
         <ownedComment xmi:id="_Fxj_QDTYEeG09e7f60ohfA" annotatedElement="_A7Yv8DTXEeG09e7f60ohfA">
           <body>&lt;p>The RNG class is the abstract base class for all random number generators in the org.jayjaybillings.math package. It uses java.util.Random to set its initial state.&lt;/p></body>
@@ -95,6 +98,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HjFFkDTrEeG09e7f60ohfA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HjEegDTrEeG09e7f60ohfA"/>
+          <defaultValue xmi:type="uml:LiteralNull" xmi:id="_L2U4IM4lEeG6JcVkF9pruA"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_yK4xEDmtEeG3dtvZymf8MA" name="stateSize" visibility="protected">
           <ownedComment xmi:id="_3QBe4DmtEeG3dtvZymf8MA" annotatedElement="_yK4xEDmtEeG3dtvZymf8MA">
@@ -138,7 +142,7 @@
           <ownedComment xmi:id="_ykmlsDTYEeG09e7f60ohfA" annotatedElement="_bc4cMDTYEeG09e7f60ohfA">
             <body>&lt;p>This operation returns a randomly generated 64-bit double-precision floating point number.&lt;/p></body>
           </ownedComment>
-          <ownedParameter xmi:id="_cRxc0DTYEeG09e7f60ohfA" name="double" direction="return">
+          <ownedParameter xmi:id="_cRxc0DTYEeG09e7f60ohfA" name="nextDouble" direction="return">
             <ownedComment xmi:id="_36QngDTzEeG09e7f60ohfA" annotatedElement="_cRxc0DTYEeG09e7f60ohfA">
               <body>&lt;p>The double-precision floating-point number.&lt;/p></body>
             </ownedComment>
@@ -149,7 +153,7 @@
           <ownedComment xmi:id="_2KdSEDTYEeG09e7f60ohfA" annotatedElement="_y0jGMDTYEeG09e7f60ohfA">
             <body>&lt;p>This operation returns a randomly generated 32-bit single-precision floating point number.&lt;/p></body>
           </ownedComment>
-          <ownedParameter xmi:id="_z9nnEDTYEeG09e7f60ohfA" name="float" direction="return">
+          <ownedParameter xmi:id="_z9nnEDTYEeG09e7f60ohfA" name="nextFloat" direction="return">
             <ownedComment xmi:id="_2caJcDTzEeG09e7f60ohfA" annotatedElement="_z9nnEDTYEeG09e7f60ohfA">
               <body>&lt;p>The single-precision floating-point number.&lt;/p></body>
             </ownedComment>
@@ -179,6 +183,9 @@
             <body>&lt;p>The constructor&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_M2XOADT0EeG09e7f60ohfA" name="seed">
+            <ownedComment xmi:id="_vvdeoM4lEeG6JcVkF9pruA" annotatedElement="_M2XOADT0EeG09e7f60ohfA">
+              <body>&lt;p>The seed with which the generator should be initialized.&lt;/p></body>
+            </ownedComment>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
@@ -186,7 +193,22 @@
           <ownedComment xmi:id="_SpqpYDT0EeG09e7f60ohfA" annotatedElement="_NXjPgDT0EeG09e7f60ohfA">
             <body>&lt;p>The copy constructor&lt;/p></body>
           </ownedComment>
-          <ownedParameter xmi:id="_OwlfADT0EeG09e7f60ohfA" name="original" type="_A7Yv8DTXEeG09e7f60ohfA"/>
+          <ownedParameter xmi:id="_OwlfADT0EeG09e7f60ohfA" name="original" type="_A7Yv8DTXEeG09e7f60ohfA">
+            <ownedComment xmi:id="_yg1aEM4lEeG6JcVkF9pruA" annotatedElement="_OwlfADT0EeG09e7f60ohfA">
+              <body>&lt;p>A second RNG whose state should be copied to create a new RNG.&lt;/p></body>
+            </ownedComment>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L3Kloc4lEeG6JcVkF9pruA" name="getNextInt" visibility="public">
+          <ownedComment xmi:id="_lS1uwM4lEeG6JcVkF9pruA" annotatedElement="_L3Kloc4lEeG6JcVkF9pruA">
+            <body>&lt;p>This operation returns a randomly generated 32-bit integer.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_L3LMsM4lEeG6JcVkF9pruA" name="nextInt" direction="return">
+            <ownedComment xmi:id="_9oo08M4lEeG6JcVkF9pruA" annotatedElement="_L3LMsM4lEeG6JcVkF9pruA">
+              <body>&lt;p>The integer&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_Z5UXsDTYEeG09e7f60ohfA" name="getNextLong" visibility="protected">
           <ownedComment xmi:id="_v17Y8DTYEeG09e7f60ohfA" annotatedElement="_Z5UXsDTYEeG09e7f60ohfA">
@@ -197,6 +219,351 @@
               <body>&lt;p>The long integer.&lt;/p></body>
             </ownedComment>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L3OQAM4lEeG6JcVkF9pruA" name="getNextDouble" visibility="public">
+          <ownedComment xmi:id="_nTAPsM4lEeG6JcVkF9pruA" annotatedElement="_L3OQAM4lEeG6JcVkF9pruA">
+            <body>&lt;p>This operation returns a randomly generated 64-bit double-precision floating point number.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_L3O3EM4lEeG6JcVkF9pruA" name="nextDouble" direction="return">
+            <ownedComment xmi:id="_1Ow_8M4lEeG6JcVkF9pruA" annotatedElement="_L3O3EM4lEeG6JcVkF9pruA">
+              <body>&lt;p>The double-precision floating-point number.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L3PeIM4lEeG6JcVkF9pruA" name="getNextFloat" visibility="public">
+          <ownedComment xmi:id="_qaWbIM4lEeG6JcVkF9pruA" annotatedElement="_L3PeIM4lEeG6JcVkF9pruA">
+            <body>&lt;p>This operation returns a randomly generated 32-bit single-precision floating point number.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_L3QFMM4lEeG6JcVkF9pruA" name="nextFloat" direction="return">
+            <ownedComment xmi:id="_3X2MUM4lEeG6JcVkF9pruA" annotatedElement="_L3QFMM4lEeG6JcVkF9pruA">
+              <body>&lt;p>The single-precision floating-point number.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6imbcM4BEeG6JcVkF9pruA" name="integration">
+      <eAnnotations xmi:id="_6l-fkM4BEeG6JcVkF9pruA" source="uml2.diagrams" references="_6l-fkc4BEeG6JcVkF9pruA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6l-fkc4BEeG6JcVkF9pruA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ityu0M4CEeG6JcVkF9pruA" type="Class" name="Integration Class Diagram">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_K_VToM4CEeG6JcVkF9pruA" element="_K_C_wM4CEeG6JcVkF9pruA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_K_aMIM4CEeG6JcVkF9pruA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_K_aMIc4CEeG6JcVkF9pruA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_baQM4CEeG6JcVkF9pruA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_coYM4CEeG6JcVkF9pruA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_K_coYc4CEeG6JcVkF9pruA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_K_dPcM4CEeG6JcVkF9pruA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_K_d2gM4CEeG6JcVkF9pruA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_K_g50M4CEeG6JcVkF9pruA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_K_hg4M4CEeG6JcVkF9pruA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K_VToc4CEeG6JcVkF9pruA" x="3130" y="4069"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_06CJEM4EEeG6JcVkF9pruA" type="Text" fontName="Sans Serif" fontHeight="10" description="Integration Class Diagram" transparency="0" lineColor="0" lineWidth="2">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_06CJEc4EEeG6JcVkF9pruA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_06CJEs4EEeG6JcVkF9pruA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_06CJE84EEeG6JcVkF9pruA" x="3053" y="1169" width="13755" height="913"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_HakzcM4CEeG6JcVkF9pruA" annotatedElement="_6imbcM4BEeG6JcVkF9pruA">
+        <body>&lt;p>This package contains integration routines for integrating n-dimensional functions.&lt;/p></body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_K_C_wM4CEeG6JcVkF9pruA" name="VEGASMonteCarloIntegrator">
+        <ownedComment xmi:id="_0uMXYM4CEeG6JcVkF9pruA" annotatedElement="_K_C_wM4CEeG6JcVkF9pruA">
+          <body>&lt;p>This class provides an implementation of the VEGAS algorithm invented by G. P. Lepage and is derived from the implementation in Numerical Recipes, 3rd Ed., Webnote No. 9, Rev. 1. Lepage's paper was used for reference: &quot;A New Algorithm for Multidimensional Integration,&quot; SLAC-PUB-1839 (Revised) November 1976, revised April 1977.&lt;/p>&lt;p>This implementation has been modified from the original to make it into a class and break apart the original vegas() routine into smaller operations. The function pointer used in the original has been replaced by the IFunction interface.&lt;/p>&lt;p>There are four public, constant and static attributes of this class - NEW_GRID, NEW_ANSWERS, REUSE_ANSWERS and CONTINUE - the uses of which are explained in the documentation for setMode().&lt;/p>&lt;p>The VEGAS algorithm works by importance sampling and stratified sampling. It iteratively refines the grid for both methods up to a number of maximum iterations and making up to a certain number of calls to the function during each iteration. It converges on the answer much quicker than a simple Monte Carlo routine for most functions, but there are a few cases where it will not perform any better.&lt;/p></body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_BgFDkM4FEeG6JcVkF9pruA" name="NEW_GRID" visibility="public" isLeaf="true" isStatic="true" isUnique="false">
+          <ownedComment xmi:id="_UM4EcM4GEeG6JcVkF9pruA" annotatedElement="_BgFDkM4FEeG6JcVkF9pruA">
+            <body>&lt;p>This mode directs the integrator to construct a new grid and set all values to their defaults. This is the default mode and should be set with setMode() any time the integrator is going to be used to integrate a function from scratch.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_D7RToM4FEeG6JcVkF9pruA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LLRWgM4FEeG6JcVkF9pruA" name="NEW_ANSWERS" visibility="public" isLeaf="true" isStatic="true" isUnique="false">
+          <ownedComment xmi:id="_ngZjkM4GEeG6JcVkF9pruA" annotatedElement="_LLRWgM4FEeG6JcVkF9pruA">
+            <body>&lt;p>This mode calculates new answers for the integration, but does so using a previously created grid. It resets all answers from previous runs, but uses the &quot;optimized&quot; grid. It can be very useful when an optimal grid for an integration has been calculate using the NEW_GRID mode and the integral needs to be evaluated to a higher accuracy. &lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Oy6LkM4FEeG6JcVkF9pruA" value="1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Qb90EM4FEeG6JcVkF9pruA" name="REUSE_ANSWERS" visibility="public" isLeaf="true" isStatic="true" isUnique="false">
+          <ownedComment xmi:id="__MnhQM4GEeG6JcVkF9pruA" annotatedElement="_Qb90EM4FEeG6JcVkF9pruA">
+            <body>&lt;p>This mode reuses both the grid and the answers from calculations performed in other modes. However, it still resets the stratified sampling grid and rebins if needed. It is useful when integrating the same function multiple times, but the client wants the stratification reset.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_uOx8kM4FEeG6JcVkF9pruA" value="2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_wWlWkM4FEeG6JcVkF9pruA" name="CONTINUE" visibility="public" isLeaf="true" isStatic="true" isUnique="false">
+          <ownedComment xmi:id="_LXSHUM4HEeG6JcVkF9pruA" annotatedElement="_wWlWkM4FEeG6JcVkF9pruA">
+            <body>&lt;p>This mode continues the integration from its previous state, changing none of the values from the last integration. It is useful for refining the grid for an additional n iterations without resetting the stratification.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_yQllIM4FEeG6JcVkF9pruA" value="3">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OAwjoM4KEeG6JcVkF9pruA" name="init_mode" visibility="private">
+          <ownedComment xmi:id="_dw0jEM4KEeG6JcVkF9pruA" annotatedElement="_OAwjoM4KEeG6JcVkF9pruA">
+            <body>&lt;p>The operating mode in which the integration will be performed. By default it is equal to the NEW_GRID mode.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_QK6HAM4KEeG6JcVkF9pruA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Q6E6IM4KEeG6JcVkF9pruA" name="maxCalls" visibility="private">
+          <ownedComment xmi:id="_kca4YM4KEeG6JcVkF9pruA" annotatedElement="_Q6E6IM4KEeG6JcVkF9pruA">
+            <body>&lt;p>The maximum number of calls that will be made to the function during the integration. This value is one by default since there is no way to know how many calls a given client would prefer.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_YsyogM4KEeG6JcVkF9pruA" value="1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oPYMoM4KEeG6JcVkF9pruA" name="maxIterations" visibility="private">
+          <ownedComment xmi:id="_9mnnQM4bEeG6JcVkF9pruA" annotatedElement="_oPYMoM4KEeG6JcVkF9pruA">
+            <body>&lt;p>The maximum number of iterations that the integrator should perform. By default this value is one since there is no &lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_po7ZgM4KEeG6JcVkF9pruA" value="1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jyfm4M4fEeG6JcVkF9pruA" name="randomNumber" visibility="private" type="_A7Yv8DTXEeG09e7f60ohfA">
+          <ownedComment xmi:id="_XeD_AM4fEeG6JcVkF9pruA" annotatedElement="_Jyfm4M4fEeG6JcVkF9pruA">
+            <body>&lt;p>An instance of an org.jayjaybillings.math.random.RNG class. By default, this class creates an instance of CMWCRNG.&lt;/p></body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-MB7wNRNEeG6JcVkF9pruA" name="maxAxialDivisions" visibility="private" isLeaf="true">
+          <ownedComment xmi:id="_cdX94NRPEeG6JcVkF9pruA" annotatedElement="_-MB7wNRNEeG6JcVkF9pruA">
+            <body>&lt;p>The maximum number of divisions along a particular dimension. It is denoted K in Numerical Recipes and NDMX in the VEGAS code listing. It is set to 50 by default.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_AlOnwNROEeG6JcVkF9pruA" value="50">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jm6MYNRPEeG6JcVkF9pruA" name="maxDimensions" visibility="private" isLeaf="true">
+          <ownedComment xmi:id="_ufT5UNRPEeG6JcVkF9pruA" annotatedElement="_jm6MYNRPEeG6JcVkF9pruA">
+            <body>&lt;p>The maximum number of dimensions allowed in the integration. It is denoted d in Numerical Recipes and MXDIM in the VEGAS code listing. It is set to 10 by default.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_o2EY4NRPEeG6JcVkF9pruA" value="10">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_rl_GUNRQEeG6JcVkF9pruA" name="alpha" visibility="private" isLeaf="true">
+          <ownedComment xmi:id="_2w6GoNRQEeG6JcVkF9pruA" annotatedElement="_rl_GUNRQEeG6JcVkF9pruA">
+            <body>&lt;p>The convergence parameter. According to Lepage's paper, this value is typically set between 0.2 and 2.0 and controls the convergence of the grid.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_lwY4wFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/double?"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_tEtHENRQEeG6JcVkF9pruA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_lwY4wFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/double?"/>
+            <language></language>
+            <body>1.5</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_TlDncNRREeG6JcVkF9pruA" name="tiny" visibility="private" isLeaf="true">
+          <ownedComment xmi:id="_dXRvcNRREeG6JcVkF9pruA" annotatedElement="_TlDncNRREeG6JcVkF9pruA">
+            <body>&lt;p>A very tiny number. It is used for approximating zero.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_YK0RoNRREeG6JcVkF9pruA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <language></language>
+            <body>1.0E-30</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Euv2UNRYEeG6JcVkF9pruA" name="bounds" visibility="private">
+          <ownedComment xmi:id="_NybdUNRYEeG6JcVkF9pruA" annotatedElement="_Euv2UNRYEeG6JcVkF9pruA">
+            <body>&lt;p>The bounds of integration. It is denoted &quot;regn&quot; in the Webnote. It is a vector that describes the lower-left and upper-right coordinates of the Cartesian box that defines the volume of the region. The first n values are the lower-left coordinates and the last n values are the upper-right coordinates, creating a vector of total length 2n where n is the dimensionality of the space.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J8TgUNRYEeG6JcVkF9pruA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J8S5QNRYEeG6JcVkF9pruA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JDdh4NRaEeG6JcVkF9pruA" name="numberOfDimensions" visibility="private">
+          <ownedComment xmi:id="_T5YikNRaEeG6JcVkF9pruA" annotatedElement="_JDdh4NRaEeG6JcVkF9pruA">
+            <body>&lt;p>The number of dimensions in the current volume of integration.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_XL-sUM4mEeG6JcVkF9pruA" name="VEGASMonteCarloIntegrator">
+          <ownedComment xmi:id="_bHlmQM4mEeG6JcVkF9pruA" annotatedElement="_XL-sUM4mEeG6JcVkF9pruA">
+            <body>&lt;p>The constructor. It initialized the random number generator and some sets some default values.&lt;/p></body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_CkAzgM4KEeG6JcVkF9pruA" name="setMaxNumberOfCalls">
+          <ownedComment xmi:id="_RpiREM4eEeG6JcVkF9pruA" annotatedElement="_CkAzgM4KEeG6JcVkF9pruA">
+            <body>&lt;p>This operation sets the maximum number of times the function will be called during a given iteration.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_I0TF0M4KEeG6JcVkF9pruA" name="maxNumberOfCalls">
+            <ownedComment xmi:id="_Y9JBkM4eEeG6JcVkF9pruA" annotatedElement="_I0TF0M4KEeG6JcVkF9pruA">
+              <body>&lt;p>The maximum number of calls to the function.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_zS_rEM4KEeG6JcVkF9pruA" name="setMaxNumberOfIterations">
+          <ownedComment xmi:id="_VbQ2QM4eEeG6JcVkF9pruA" annotatedElement="_zS_rEM4KEeG6JcVkF9pruA">
+            <body>&lt;p>This operation sets the maximum number of iterations that will be performed to refine the solution grid during the integration.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_11W6IM4KEeG6JcVkF9pruA" name="maxNumberOfIterations">
+            <ownedComment xmi:id="_Xvm3cM4eEeG6JcVkF9pruA" annotatedElement="_11W6IM4KEeG6JcVkF9pruA">
+              <body>&lt;p>The maximum number of iterations.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7ucI4NRWEeG6JcVkF9pruA" name="setIntegrationRegion">
+          <ownedComment xmi:id="_ESpJINRYEeG6JcVkF9pruA" annotatedElement="_7ucI4NRWEeG6JcVkF9pruA">
+            <body>&lt;p>This operation sets the bounds of the integration.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ClTTANRXEeG6JcVkF9pruA" name="volume">
+            <ownedComment xmi:id="_zrM1wNRXEeG6JcVkF9pruA" annotatedElement="_ClTTANRXEeG6JcVkF9pruA">
+              <body>&lt;p>A vector that describes the lower-left and upper-right coordinates of the Cartesian box that defines the volume of the region. The first n values are the lower-left coordinates and the last n values are the upper-right coordinates, creating a vector of total length 2n where n is the dimensionality of the space.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ClT6EdRXEeG6JcVkF9pruA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ClT6ENRXEeG6JcVkF9pruA" value="1"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8IudAM4HEeG6JcVkF9pruA" name="setMode">
+          <ownedComment xmi:id="_aokqoM4IEeG6JcVkF9pruA" annotatedElement="_8IudAM4HEeG6JcVkF9pruA">
+            <body>&lt;p>This operation sets the mode in which the integrator should run. The VEGAS algorithm typically runs in one of four modes, described in this implementation by the NEW_GRID, NEW_ANSWERS, REUSE_ANSWERS and CONTINUE attributes of this class. Unlike the original implementation of VEGAS, this version will only work for those four mode values and the integrate() operation will return 0.0 if the mode is any other value. The definitions of each mode are available in the respective mode's documentation.&lt;/p>&lt;p>This mode should be called immediately before integrate() and after the region, number of calls and number of iterations have been set.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_-kZ1QM4HEeG6JcVkF9pruA" name="mode">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c9LxkM4IEeG6JcVkF9pruA" name="integrate">
+          <ownedComment xmi:id="_-98hMM4IEeG6JcVkF9pruA" annotatedElement="_c9LxkM4IEeG6JcVkF9pruA">
+            <body>&lt;p>This operation integrates a function over the integration region. It should be called after the other operations are called to configure the integrator; setMaxIterations(), setIntegrationRegion(), setMode(), setup(), etc.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_s7F_wM4IEeG6JcVkF9pruA" name="function" type="_1mR18M4CEeG6JcVkF9pruA">
+            <ownedComment xmi:id="_KC9t0M4JEeG6JcVkF9pruA" annotatedElement="_s7F_wM4IEeG6JcVkF9pruA">
+              <body>&lt;p>The function that should be integrated over the volume. This function must implemented the IFunction interface. The IFunction.evaluate(x,weight) operation is called by the integrator.&lt;/p></body>
+            </ownedComment>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s7Gm0M4IEeG6JcVkF9pruA" name="answers" direction="return">
+            <ownedComment xmi:id="_nNwNAM4JEeG6JcVkF9pruA" annotatedElement="_s7Gm0M4IEeG6JcVkF9pruA">
+              <body>&lt;p>An array of three doubles where the first is the value of the integral, the second is the standard deviation and the third is the value of &quot;chi squared per degree of freedom.&quot; This final value can be used to determine the quality of the of the integration: if it is much larger than one, then the value of the integration is bad.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s7HN4c4IEeG6JcVkF9pruA" value="3"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s7HN4M4IEeG6JcVkF9pruA" value="3"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZPwkgM5_EeG6JcVkF9pruA" name="rebin" visibility="private">
+          <ownedComment xmi:id="_396T4M5_EeG6JcVkF9pruA" annotatedElement="_ZPwkgM5_EeG6JcVkF9pruA">
+            <body>&lt;p>This operation rebins a vector of densities contained in the j-th row of xi into new bins defined by a vector r.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_sqEBEM5_EeG6JcVkF9pruA" name="rc">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sqISgM5_EeG6JcVkF9pruA" name="j">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8xiKoM4hEeG6JcVkF9pruA" name="common">
+      <eAnnotations xmi:id="_8xixsM4hEeG6JcVkF9pruA" source="uml2.diagrams" references="_8xjYwM4hEeG6JcVkF9pruA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8xjYwM4hEeG6JcVkF9pruA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_EHgSoM4iEeG6JcVkF9pruA" annotatedElement="_8xiKoM4hEeG6JcVkF9pruA">
+        <body>&lt;p>This package contains classes and interfaces that are commonly used by other classes and packages in this library.&lt;/p></body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jiDVUM4fEeG6JcVkF9pruA" name="Constants">
+        <ownedComment xmi:id="_pIn8QM4fEeG6JcVkF9pruA" annotatedElement="_jiDVUM4fEeG6JcVkF9pruA">
+          <body>&lt;p>This class provides definitions for common mathematical constants to sixteen decimal places.&lt;/p></body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_pvVW8M4fEeG6JcVkF9pruA" name="pi" visibility="public" isLeaf="true" isStatic="true" isUnique="false" isReadOnly="true">
+          <ownedComment xmi:id="_Vpl7QM4gEeG6JcVkF9pruA" annotatedElement="_pvVW8M4fEeG6JcVkF9pruA">
+            <body>&lt;p>Pi to eighteen digits past the decimal, taken from mathworld.wolfram.com/PiDigits.html.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_BVDrEM4gEeG6JcVkF9pruA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <language></language>
+            <body>3.141592653589793</body>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_1mR18M4CEeG6JcVkF9pruA" name="IFunction">
+        <ownedComment xmi:id="_4Y02EM4CEeG6JcVkF9pruA" annotatedElement="_1mR18M4CEeG6JcVkF9pruA">
+          <body>&lt;p>The IFunction interface represents a mathematical function. &lt;/p></body>
+        </ownedComment>
+        <ownedOperation xmi:id="_4muvMM4CEeG6JcVkF9pruA" name="evaluate">
+          <ownedComment xmi:id="_IuO-QM4DEeG6JcVkF9pruA" annotatedElement="_4muvMM4CEeG6JcVkF9pruA">
+            <body>&lt;p>This operation evaluates the function for the vector x of length n. If n is greater than the dimensionality d of the function, then the function is evaluated using the first d values of x. However, if n is less than d, then function will return 0.0.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_KYReMM4DEeG6JcVkF9pruA" name="x">
+            <ownedComment xmi:id="_jpqNcM4EEeG6JcVkF9pruA" annotatedElement="_KYReMM4DEeG6JcVkF9pruA">
+              <body>&lt;p>A vector of length n = d where d is the function's dimensionality at which the function is evaluated.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_lwY4wFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/double?"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PMI10M4DEeG6JcVkF9pruA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PMIOwM4DEeG6JcVkF9pruA" value="1"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PyoOEM4DEeG6JcVkF9pruA" name="value" direction="return">
+            <ownedComment xmi:id="_eH8RUM4EEeG6JcVkF9pruA" annotatedElement="_PyoOEM4DEeG6JcVkF9pruA">
+              <body>&lt;p>The value of the function at x.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_lwY4wFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/double?"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_eZnFkM4DEeG6JcVkF9pruA" name="evaluate">
+          <ownedComment xmi:id="_nbt_QM4DEeG6JcVkF9pruA" annotatedElement="_eZnFkM4DEeG6JcVkF9pruA">
+            <body>&lt;p>This operation works the same as evaluate(x), but with an additional weight argument than can be used to integrate another function g(x) that resembles f.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_h3ycoM4DEeG6JcVkF9pruA" name="x">
+            <ownedComment xmi:id="_keh_8M4EEeG6JcVkF9pruA" annotatedElement="_h3ycoM4DEeG6JcVkF9pruA">
+              <body>&lt;p>A vector of length n = d where d is the function's dimensionality at which the function is evaluated.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h30R0M4DEeG6JcVkF9pruA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h3zqwM4DEeG6JcVkF9pruA" value="1"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h3044M4DEeG6JcVkF9pruA" name="weight">
+            <ownedComment xmi:id="_xEgB8M4EEeG6JcVkF9pruA" annotatedElement="_h3044M4DEeG6JcVkF9pruA">
+              <body>&lt;p>A weight w that can be used to integrate a function g(x) that resembles this function using the relation integral(g) = sum[0,i](w_i*g(x)).&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h31f8M4DEeG6JcVkF9pruA" name="value" direction="return">
+            <ownedComment xmi:id="_mwy9gM4EEeG6JcVkF9pruA" annotatedElement="_h31f8M4DEeG6JcVkF9pruA">
+              <body>&lt;p>The value of the function at x.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OTaBkM4EEeG6JcVkF9pruA" name="getDimensionality">
+          <ownedComment xmi:id="_T6u2cM4EEeG6JcVkF9pruA" annotatedElement="_OTaBkM4EEeG6JcVkF9pruA">
+            <body>&lt;p>This operation returns the dimensionality of the function.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_PmcWwM4EEeG6JcVkF9pruA" name="d" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
@@ -219,6 +586,12 @@
       </eAnnotations>
       <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
     </profileApplication>
+    <profileApplication xmi:id="_L2TC884lEeG6JcVkF9pruA">
+      <eAnnotations xmi:id="_L2TqAM4lEeG6JcVkF9pruA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
   </uml:Package>
   <Default:Documentation xmi:id="_Fxr7EDTYEeG09e7f60ohfA" base_Comment="_Fxj_QDTYEeG09e7f60ohfA"/>
   <Default:Documentation xmi:id="_h4DI0DTYEeG09e7f60ohfA" base_Comment="_h4AskDTYEeG09e7f60ohfA"/>
@@ -240,4 +613,58 @@
   <Default:Documentation xmi:id="_3QHlgDmtEeG3dtvZymf8MA" base_Comment="_3QBe4DmtEeG3dtvZymf8MA"/>
   <Default:Documentation xmi:id="_In3XoDmyEeG3dtvZymf8MA" base_Comment="_InzGMDmyEeG3dtvZymf8MA"/>
   <Default:Documentation xmi:id="_Mm3j0DmyEeG3dtvZymf8MA" base_Comment="_Mm1HkDmyEeG3dtvZymf8MA"/>
+  <Default:Documentation xmi:id="_CwzL8M4CEeG6JcVkF9pruA" base_Comment="_CwuTcM4CEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_Haq6EM4CEeG6JcVkF9pruA" base_Comment="_HakzcM4CEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_0uTsIM4CEeG6JcVkF9pruA" base_Comment="_0uMXYM4CEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_4Y3SUM4CEeG6JcVkF9pruA" base_Comment="_4Y02EM4CEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_IuRagM4DEeG6JcVkF9pruA" base_Comment="_IuO-QM4DEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_nbv0cM4DEeG6JcVkF9pruA" base_Comment="_nbt_QM4DEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_T6wroM4EEeG6JcVkF9pruA" base_Comment="_T6u2cM4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_eH_7sM4EEeG6JcVkF9pruA" base_Comment="_eH8RUM4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_jpt30M4EEeG6JcVkF9pruA" base_Comment="_jpqNcM4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_kelqUM4EEeG6JcVkF9pruA" base_Comment="_keh_8M4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_mw2A0M4EEeG6JcVkF9pruA" base_Comment="_mwy9gM4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_xEjsUM4EEeG6JcVkF9pruA" base_Comment="_xEgB8M4EEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_UM7HwM4GEeG6JcVkF9pruA" base_Comment="_UM4EcM4GEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_ngcm4M4GEeG6JcVkF9pruA" base_Comment="_ngZjkM4GEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="__MqkkM4GEeG6JcVkF9pruA" base_Comment="__MnhQM4GEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_LXVKoM4HEeG6JcVkF9pruA" base_Comment="_LXSHUM4HEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_aomf0M4IEeG6JcVkF9pruA" base_Comment="_aokqoM4IEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_-9_kgM4IEeG6JcVkF9pruA" base_Comment="_-98hMM4IEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_KDAKEM4JEeG6JcVkF9pruA" base_Comment="_KC9t0M4JEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_nNzQUM4JEeG6JcVkF9pruA" base_Comment="_nNwNAM4JEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_dw3mYM4KEeG6JcVkF9pruA" base_Comment="_dw0jEM4KEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_kcd7sM4KEeG6JcVkF9pruA" base_Comment="_kca4YM4KEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_9mqqkM4bEeG6JcVkF9pruA" base_Comment="_9mnnQM4bEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_RpjfMM4eEeG6JcVkF9pruA" base_Comment="_RpiREM4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_VbT5kM4eEeG6JcVkF9pruA" base_Comment="_VbQ2QM4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_Xvp6wM4eEeG6JcVkF9pruA" base_Comment="_Xvm3cM4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_Y9ME4M4eEeG6JcVkF9pruA" base_Comment="_Y9JBkM4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_XeHCUM4fEeG6JcVkF9pruA" base_Comment="_XeD_AM4fEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_pIq_kM4fEeG6JcVkF9pruA" base_Comment="_pIn8QM4fEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_Vpo-kM4gEeG6JcVkF9pruA" base_Comment="_Vpl7QM4gEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_EHjV8M4iEeG6JcVkF9pruA" base_Comment="_EHgSoM4iEeG6JcVkF9pruA"/>
+  <JavaTransformation50:JavaArray xmi:id="_NMn8sM4lEeG6JcVkF9pruA" base_TypedElement="_s7Gm0M4IEeG6JcVkF9pruA"/>
+  <JavaTransformation50:JavaArray xmi:id="_NMpK0M4lEeG6JcVkF9pruA" base_TypedElement="_meT-wDTXEeG09e7f60ohfA"/>
+  <JavaTransformation50:JavaArray xmi:id="_NMrAAM4lEeG6JcVkF9pruA" base_TypedElement="_h3ycoM4DEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_lS4yEM4lEeG6JcVkF9pruA" base_Comment="_lS1uwM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_nTD6EM4lEeG6JcVkF9pruA" base_Comment="_nTAPsM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_qaYQUM4lEeG6JcVkF9pruA" base_Comment="_qaWbIM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_vvgh8M4lEeG6JcVkF9pruA" base_Comment="_vvdeoM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_yg4dYM4lEeG6JcVkF9pruA" base_Comment="_yg1aEM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_1O0qUM4lEeG6JcVkF9pruA" base_Comment="_1Ow_8M4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_3X4BgM4lEeG6JcVkF9pruA" base_Comment="_3X2MUM4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_9osfUM4lEeG6JcVkF9pruA" base_Comment="_9oo08M4lEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_bHpQoM4mEeG6JcVkF9pruA" base_Comment="_bHlmQM4mEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_399-QM5_EeG6JcVkF9pruA" base_Comment="_396T4M5_EeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_cdboQNRPEeG6JcVkF9pruA" base_Comment="_cdX94NRPEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_ufXjsNRPEeG6JcVkF9pruA" base_Comment="_ufT5UNRPEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_2w9J8NRQEeG6JcVkF9pruA" base_Comment="_2w6GoNRQEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_dXUywNRREeG6JcVkF9pruA" base_Comment="_dXRvcNRREeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_zrQgINRXEeG6JcVkF9pruA" base_Comment="_zrM1wNRXEeG6JcVkF9pruA"/>
+  <JavaTransformation50:JavaArray xmi:id="_5FWKQNRXEeG6JcVkF9pruA" base_TypedElement="_ClTTANRXEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_ESsMcNRYEeG6JcVkF9pruA" base_Comment="_ESpJINRYEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_NyfHsNRYEeG6JcVkF9pruA" base_Comment="_NybdUNRYEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_T5cM8NRaEeG6JcVkF9pruA" base_Comment="_T5YikNRaEeG6JcVkF9pruA"/>
+  <JavaTransformation50:JavaArray xmi:id="__iQXsNUlEeGVvf4v2-60eQ" base_TypedElement="_KYReMM4DEeG6JcVkF9pruA"/>
 </xmi:XMI>

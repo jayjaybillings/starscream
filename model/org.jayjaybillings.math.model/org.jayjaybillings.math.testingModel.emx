@@ -91,6 +91,9 @@
           </edges>
         </contents>
       </eAnnotations>
+      <ownedComment xmi:id="_gYR9cM4eEeG6JcVkF9pruA" annotatedElement="_oBL9YDTwEeG09e7f60ohfA">
+        <body>&lt;p>This package contains test code and utilities for the org.jayjaybillings.math.random package.&lt;/p></body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_LR8f0DTyEeG09e7f60ohfA" name="CMWCRNGOutputGenerator" clientDependency="_LWY68DTyEeG09e7f60ohfA _55ZqMDTyEeG09e7f60ohfA">
         <ownedComment xmi:id="_LR-8EDTyEeG09e7f60ohfA" annotatedElement="_LR8f0DTyEeG09e7f60ohfA">
           <body>&lt;p>This class generates output for the Dieharder RNG testing suite using the CMWC-RNG. It is &lt;b>not &lt;/b>a standard junit test and it must be called from the command line. It will dump binary integers to stdout for ten hours and Dieharder will consume lots of resources, so be mindful when you run this program. The proper command to test this on Linux is &quot;java -cp  &amp;lt;path-to-Starscream-workspace&amp;gt;/org.jayjaybillings.math/bin/:. random/CMWCRNGOutputGenerator | dieharder -g 200 -a&quot; if Dieharder is on the path and you are launching from the org.jayjaybillings.math.tests/bin directory.&lt;/p></body>
@@ -112,6 +115,290 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_55ZqMDTyEeG09e7f60ohfA" client="_LR8f0DTyEeG09e7f60ohfA">
         <supplier xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_dynp4DTrEeG09e7f60ohfA?org.jayjaybillings.math/random/CMWCRNG?"/>
       </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cPpUIM4eEeG6JcVkF9pruA" name="integration">
+      <eAnnotations xmi:id="_cPp7MM4eEeG6JcVkF9pruA" source="uml2.diagrams" references="_cPqiQM4eEeG6JcVkF9pruA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_cPqiQM4eEeG6JcVkF9pruA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_jvMO4M4eEeG6JcVkF9pruA" type="Class" name="VEGASMonteCarloIntegratorTester Class Diagram">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_qTKSMM4eEeG6JcVkF9pruA" element="_qTGn0M4eEeG6JcVkF9pruA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_qTLgUM4eEeG6JcVkF9pruA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_qTLgUc4eEeG6JcVkF9pruA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qTMHYM4eEeG6JcVkF9pruA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qTMHYc4eEeG6JcVkF9pruA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qTMucM4eEeG6JcVkF9pruA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qTMucc4eEeG6JcVkF9pruA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qTNVgM4eEeG6JcVkF9pruA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qTN8kM4eEeG6JcVkF9pruA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qTN8kc4eEeG6JcVkF9pruA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTKSMc4eEeG6JcVkF9pruA" x="1878" y="3443"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_xmmDkc4eEeG6JcVkF9pruA" type="Text" fontName="Sans Serif" fontHeight="10" description="Integration Testing Class Diagram" transparency="0" lineColor="0" lineWidth="2">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_xmmDks4eEeG6JcVkF9pruA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_xmmDk84eEeG6JcVkF9pruA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xmmDlM4eEeG6JcVkF9pruA" x="3310" y="1426" width="13727" height="884"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_4knloM4eEeG6JcVkF9pruA" fontName="Sans Serif" fontHeight="10" showListSignature="true" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_4kpa0M4eEeG6JcVkF9pruA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_4kpa0c4eEeG6JcVkF9pruA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4kqB4M4eEeG6JcVkF9pruA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4kqo8M4eEeG6JcVkF9pruA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4kqo8c4eEeG6JcVkF9pruA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4krQAM4eEeG6JcVkF9pruA" type="AttributeCompartment" collapsed="true"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4kr3EM4eEeG6JcVkF9pruA" type="OperationCompartment" collapsed="true"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4kr3Ec4eEeG6JcVkF9pruA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4kr3Es4eEeG6JcVkF9pruA" visible="false" type="StructureCompartment"/>
+            <element xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_K_C_wM4CEeG6JcVkF9pruA?org.jayjaybillings.math/integration/VEGASMonteCarloIntegrator?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4koMsM4eEeG6JcVkF9pruA" x="18154" y="9077"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_JCkFwNUlEeGVvf4v2-60eQ" element="_JBo4sNUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_JCvr8NUlEeGVvf4v2-60eQ" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_JCvr8dUlEeGVvf4v2-60eQ" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_JCwTANUlEeGVvf4v2-60eQ" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_JCw6ENUlEeGVvf4v2-60eQ" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_JCxhINUlEeGVvf4v2-60eQ" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_JCyIMNUlEeGVvf4v2-60eQ" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_JCyIMdUlEeGVvf4v2-60eQ" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_JDDN8NUlEeGVvf4v2-60eQ" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_JDEcENUlEeGVvf4v2-60eQ" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JCkFwdUlEeGVvf4v2-60eQ" x="626" y="7825"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_T3zxANUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_T30_INUlEeGVvf4v2-60eQ" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_T30_IdUlEeGVvf4v2-60eQ" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_T31mMNUlEeGVvf4v2-60eQ" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_T32NQNUlEeGVvf4v2-60eQ" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_T32NQdUlEeGVvf4v2-60eQ" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_T320UNUlEeGVvf4v2-60eQ" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_T33bYNUlEeGVvf4v2-60eQ" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_T33bYdUlEeGVvf4v2-60eQ" type="OperationCompartment" collapsed="true"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_T34pgNUlEeGVvf4v2-60eQ" visible="false" type="SignalCompartment"/>
+            <element xmi:type="uml:Interface" href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3zxAdUlEeGVvf4v2-60eQ" x="5708" y="11218"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_jLxgEBDKEeKKWOaIAcEgYA" element="_jJTa4BDKEeKKWOaIAcEgYA" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jL3msBDKEeKKWOaIAcEgYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_jL3msRDKEeKKWOaIAcEgYA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_jL4NwBDKEeKKWOaIAcEgYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_jL5b4BDKEeKKWOaIAcEgYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_jL5b4RDKEeKKWOaIAcEgYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_jL6C8BDKEeKKWOaIAcEgYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_jL6qABDKEeKKWOaIAcEgYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_jMG3QBDKEeKKWOaIAcEgYA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jMIFYBDKEeKKWOaIAcEgYA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jLyHIBDKEeKKWOaIAcEgYA" x="5736" y="7876"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_9wWUgBDWEeKKWOaIAcEgYA" element="_9wRcABDWEeKKWOaIAcEgYA" fontName="Sans Serif" fontHeight="10" transparency="0" lineColor="0" lineWidth="2" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_9wXioBDWEeKKWOaIAcEgYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_9wXioRDWEeKKWOaIAcEgYA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_9wYJsBDWEeKKWOaIAcEgYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_9wYwwBDWEeKKWOaIAcEgYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_9wYwwRDWEeKKWOaIAcEgYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_9wYwwhDWEeKKWOaIAcEgYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_9wZX0BDWEeKKWOaIAcEgYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_9wZX0RDWEeKKWOaIAcEgYA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9wZ-4BDWEeKKWOaIAcEgYA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9wWUgRDWEeKKWOaIAcEgYA" x="10302" y="7791"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4lxcMM4eEeG6JcVkF9pruA" element="_4lGt0M4eEeG6JcVkF9pruA" source="_qTKSMM4eEeG6JcVkF9pruA" target="_4knloM4eEeG6JcVkF9pruA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_4lzRYM4eEeG6JcVkF9pruA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4lz4cM4eEeG6JcVkF9pruA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4lz4cc4eEeG6JcVkF9pruA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4lzRYc4eEeG6JcVkF9pruA" y="-200"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l1GkM4eEeG6JcVkF9pruA" type="ToMultiplicityLabel" element="_4ldTIM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4l1toM4eEeG6JcVkF9pruA" type="ToMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l1Gkc4eEeG6JcVkF9pruA" y="428"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l1toc4eEeG6JcVkF9pruA" type="ToRoleLabel" element="_4ldTIM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4l2UsM4eEeG6JcVkF9pruA" type="ToRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l1tos4eEeG6JcVkF9pruA" y="-429"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l27wM4eEeG6JcVkF9pruA" type="FromMultiplicityLabel" element="_4lUJMM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4l3i0M4eEeG6JcVkF9pruA" type="FromMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l27wc4eEeG6JcVkF9pruA" x="669" y="-580"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l4J4M4eEeG6JcVkF9pruA" visible="false" type="FromRoleLabel" element="_4lUJMM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4l4w8M4eEeG6JcVkF9pruA" type="FromRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l4J4c4eEeG6JcVkF9pruA" y="-429"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l5YAM4eEeG6JcVkF9pruA" type="ToQualifierLabel" element="_4ldTIM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_4l5_EM4eEeG6JcVkF9pruA" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l5YAc4eEeG6JcVkF9pruA" y="-200"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l5_Ec4eEeG6JcVkF9pruA" type="FromQualifierLabel" element="_4lUJMM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_4l5_E84eEeG6JcVkF9pruA" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l5_Es4eEeG6JcVkF9pruA" y="-200"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l6mIM4eEeG6JcVkF9pruA" type="ToConstraintLabel" element="_4ldTIM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:ListCompartment" xmi:id="_4l6mIs4eEeG6JcVkF9pruA" type="ToConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l6mIc4eEeG6JcVkF9pruA" y="1141"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_4l6mI84eEeG6JcVkF9pruA" type="FromConstraintLabel" element="_4lUJMM4eEeG6JcVkF9pruA">
+              <children xmi:type="notation:ListCompartment" xmi:id="_4l7NMM4eEeG6JcVkF9pruA" type="FromConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4l6mJM4eEeG6JcVkF9pruA" y="1141"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4lyDQM4eEeG6JcVkF9pruA" points="[-76, -26, 356, 120]$[-430, -146, 2, 0]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T7nS8NUlEeGVvf4v2-60eQ" element="_T7dh8NUlEeGVvf4v2-60eQ" source="_JCkFwNUlEeGVvf4v2-60eQ" target="_T3zxANUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_T7v10NUlEeGVvf4v2-60eQ" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_T7wc4NUlEeGVvf4v2-60eQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_T7wc4dUlEeGVvf4v2-60eQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T7v10dUlEeGVvf4v2-60eQ" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T7nS8dUlEeGVvf4v2-60eQ" points="[-18, -26, 172, 240]$[-188, -264, 2, 2]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_YaBX8NUlEeGVvf4v2-60eQ" element="_YZ41ENUlEeGVvf4v2-60eQ" source="_qTKSMM4eEeG6JcVkF9pruA" target="_JCkFwNUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YaB_ANUlEeGVvf4v2-60eQ" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YaB_AtUlEeGVvf4v2-60eQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YaB_A9UlEeGVvf4v2-60eQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YaB_AdUlEeGVvf4v2-60eQ" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YaBX8dUlEeGVvf4v2-60eQ" points="[-17, 28, 95, -156]$[-85, 158, 27, -26]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_luX_sBDKEeKKWOaIAcEgYA" element="_luOOsBDKEeKKWOaIAcEgYA" source="_qTKSMM4eEeG6JcVkF9pruA" target="_jLxgEBDKEeKKWOaIAcEgYA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_luZ04BDKEeKKWOaIAcEgYA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_luab8BDKEeKKWOaIAcEgYA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_luab8RDKEeKKWOaIAcEgYA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luZ04RDKEeKKWOaIAcEgYA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_luX_sRDKEeKKWOaIAcEgYA" points="[-23, 36, 68, -108]$[-96, 170, -5, 26]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_m2bM4BDKEeKKWOaIAcEgYA" element="_m2QNwBDKEeKKWOaIAcEgYA" source="_jLxgEBDKEeKKWOaIAcEgYA" target="_T3zxANUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_m2cbABDKEeKKWOaIAcEgYA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_m2dCEBDKEeKKWOaIAcEgYA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_m2dCERDKEeKKWOaIAcEgYA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m2cbARDKEeKKWOaIAcEgYA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m2bM4RDKEeKKWOaIAcEgYA" points="[-7, 26, 2, -99]$[-7, 92, 2, -33]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Ln0aoBDXEeKKWOaIAcEgYA" element="_LnwJMBDXEeKKWOaIAcEgYA" source="_qTKSMM4eEeG6JcVkF9pruA" target="_9wWUgBDWEeKKWOaIAcEgYA" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ln1BsBDXEeKKWOaIAcEgYA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ln1BshDXEeKKWOaIAcEgYA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ln1owBDXEeKKWOaIAcEgYA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ln1BsRDXEeKKWOaIAcEgYA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ln0aoRDXEeKKWOaIAcEgYA" points="[18, 44, -34, -89]$[54, 107, 2, -26]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_bKNxgBDXEeKKWOaIAcEgYA" element="_bKKuMBDXEeKKWOaIAcEgYA" source="_9wWUgBDWEeKKWOaIAcEgYA" target="_T3zxANUlEeGVvf4v2-60eQ" fontName="Sans Serif" fontHeight="10" lineColor="0" lineWidth="2" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_bKOYkBDXEeKKWOaIAcEgYA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_bKOYkhDXEeKKWOaIAcEgYA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_bKO_oBDXEeKKWOaIAcEgYA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bKOYkRDXEeKKWOaIAcEgYA" y="-200"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bKNxgRDXEeKKWOaIAcEgYA" points="[-32, 26, 120, -102]$[-121, 95, 31, -33]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_g3BH4M4eEeG6JcVkF9pruA" annotatedElement="_cPpUIM4eEeG6JcVkF9pruA">
+        <body>&lt;p>This package contains test code and utilities for the org.jayjaybillings.math.integration package.&lt;/p></body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qTGn0M4eEeG6JcVkF9pruA" name="VEGASMonteCarloIntegratorTester" clientDependency="_YZ41ENUlEeGVvf4v2-60eQ _luOOsBDKEeKKWOaIAcEgYA _LnwJMBDXEeKKWOaIAcEgYA">
+        <ownedComment xmi:id="_juCGYM4gEeG6JcVkF9pruA" annotatedElement="_qTGn0M4eEeG6JcVkF9pruA">
+          <body>&lt;p>This class is responsible for testing the VEGASMonteCarloIntegrator. It integrates a set of functions, most of which have known analytic integrals, and compares the answer from the integrator to a gold standard, either the analytical solution or the best obtainable numerical solution.&lt;/p></body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_4lUJMM4eEeG6JcVkF9pruA" name="integrator" visibility="private" association="_4lGt0M4eEeG6JcVkF9pruA">
+          <ownedComment xmi:id="_IvDM4M4fEeG6JcVkF9pruA" annotatedElement="_4lUJMM4eEeG6JcVkF9pruA">
+            <body>&lt;p>An instance of the VEGASMonteCarloIntegrator that is used for the tests. The same integrator is used for all of the tests.&lt;/p></body>
+          </ownedComment>
+          <type xmi:type="uml:Class" href="org.jayjaybillings.math.emx#_K_C_wM4CEeG6JcVkF9pruA?org.jayjaybillings.math/integration/VEGASMonteCarloIntegrator?"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4la24M4eEeG6JcVkF9pruA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4lYaoM4eEeG6JcVkF9pruA"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_LMwfUAqBEeKEJshIfNItUA" name="printIntegralValue" visibility="private">
+          <ownedComment xmi:id="_cSppQAqBEeKEJshIfNItUA" annotatedElement="_LMwfUAqBEeKEJshIfNItUA">
+            <body>&lt;p>This operation prints the value of an integration to the screen. It is simply a utility function to avoid repeating the dump to stdout.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_R23m4AqBEeKEJshIfNItUA" name="value">
+            <ownedComment xmi:id="_wgCIkAqBEeKEJshIfNItUA" annotatedElement="_R23m4AqBEeKEJshIfNItUA">
+              <body>&lt;p>The value of the integral.&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_R3Aw0AqBEeKEJshIfNItUA" name="stdDev">
+            <ownedComment xmi:id="_rAjoIAqBEeKEJshIfNItUA" annotatedElement="_R3Aw0AqBEeKEJshIfNItUA">
+              <body>&lt;p>The standard deviation&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_R3B-8AqBEeKEJshIfNItUA" name="chi2a">
+            <ownedComment xmi:id="_qH9zQAqBEeKEJshIfNItUA" annotatedElement="_R3B-8AqBEeKEJshIfNItUA">
+              <body>&lt;p>(Chi^2)*a&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gKJfQAqBEeKEJshIfNItUA" name="testName">
+            <ownedComment xmi:id="_tGlggAqBEeKEJshIfNItUA" annotatedElement="_gKJfQAqBEeKEJshIfNItUA">
+              <body>&lt;p>The name of the test (OneDQuadratic, etc.).&lt;/p></body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_l_SXUM4gEeG6JcVkF9pruA" name="check1DQuadratic">
+          <ownedComment xmi:id="_c00WYM4hEeG6JcVkF9pruA" annotatedElement="_l_SXUM4gEeG6JcVkF9pruA">
+            <body>&lt;p>This operation integrates a simple one dimensional quadratic function f(x) = ax^2+b^x+c over the region -100.0 &amp;lt; x &amp;lt; 100.0. For a = 24.3, b = 81.0 and c = 5.0, the value of the integral is 1.6201*10^7.&lt;/p></body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_5EECABDKEeKKWOaIAcEgYA" name="checkUnitSphereVolume">
+          <ownedComment xmi:id="_KWqyQBDLEeKKWOaIAcEgYA" annotatedElement="_5EECABDKEeKKWOaIAcEgYA">
+            <body>&lt;p>This operation integrates the UnitSphere function to calculate its volume in the region defined by the unit cube (-1&amp;lt;={x,y,z}&amp;lt;=1). The volume of a unit sphere (R=1) is (4/3)*pi.&lt;/p></body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MlFUIBDXEeKKWOaIAcEgYA" name="check3DSinc">
+          <ownedComment xmi:id="_fwDUMBDXEeKKWOaIAcEgYA" annotatedElement="_MlFUIBDXEeKKWOaIAcEgYA">
+            <body>&lt;p>This operation integrates a 3D sinc, f(x,y,z) = sin(x)/x + sin(y)/y + sin(z)/z, over the region -20.0 &amp;lt;= {x,y,z} &amp;lt;= 20.0. The value of the integral is 14863.1 according to Wolfram Alpha.&lt;/p></body>
+          </ownedComment>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4lGt0M4eEeG6JcVkF9pruA" memberEnd="_4lUJMM4eEeG6JcVkF9pruA _4ldTIM4eEeG6JcVkF9pruA">
+        <ownedEnd xmi:id="_4ldTIM4eEeG6JcVkF9pruA" name="" visibility="private" type="_qTGn0M4eEeG6JcVkF9pruA" association="_4lGt0M4eEeG6JcVkF9pruA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4lfIUM4eEeG6JcVkF9pruA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4lehQM4eEeG6JcVkF9pruA"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JBo4sNUlEeGVvf4v2-60eQ" name="OneDQuadratic" clientDependency="_T7dh8NUlEeGVvf4v2-60eQ">
+        <ownedComment xmi:id="_dc6qENUlEeGVvf4v2-60eQ" annotatedElement="_JBo4sNUlEeGVvf4v2-60eQ">
+          <body>&lt;p>A 1D quadratic IFunction used in the test. f(x) = ax^2+b^x+c over the region -100.0 &amp;lt; x &amp;lt; 100.0. For a = 24.3, b = 81.0 and c = 5.0, the value of the integral is 1.6201*10^7.&lt;/p></body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_T7dh8NUlEeGVvf4v2-60eQ" client="_JBo4sNUlEeGVvf4v2-60eQ">
+          <supplier xmi:type="uml:Interface" href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+          <contract href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+        </interfaceRealization>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_YZ41ENUlEeGVvf4v2-60eQ" supplier="_JBo4sNUlEeGVvf4v2-60eQ" client="_qTGn0M4eEeG6JcVkF9pruA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jJTa4BDKEeKKWOaIAcEgYA" name="UnitSphere" clientDependency="_m2QNwBDKEeKKWOaIAcEgYA">
+        <ownedComment xmi:id="_3TZ8sBDKEeKKWOaIAcEgYA" annotatedElement="_jJTa4BDKEeKKWOaIAcEgYA">
+          <body>&lt;p>An IFunction for the unit sphere (R=1) used for testing the VEGASMonteCarloIntegrator. The volume of a unit sphere is (4/3)*pi.&lt;/p></body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_m2QNwBDKEeKKWOaIAcEgYA" client="_jJTa4BDKEeKKWOaIAcEgYA">
+          <supplier xmi:type="uml:Interface" href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+          <contract href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+        </interfaceRealization>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_luOOsBDKEeKKWOaIAcEgYA" supplier="_jJTa4BDKEeKKWOaIAcEgYA" client="_qTGn0M4eEeG6JcVkF9pruA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9wRcABDWEeKKWOaIAcEgYA" name="ThreeDSinc" clientDependency="_bKKuMBDXEeKKWOaIAcEgYA">
+        <ownedComment xmi:id="_aF4msBDXEeKKWOaIAcEgYA" annotatedElement="_9wRcABDWEeKKWOaIAcEgYA">
+          <body>&lt;p>A 3D sinc IFunction used in the test. f(x,y,z) = sin(x)/x + sin(y)/y + sin(z)/z over the region -20.0 &amp;lt;= {x,y,z} &amp;lt;= 20.0. The value of the integral is 14863.1 according to Wolfram Alpha.&lt;/p></body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_bKKuMBDXEeKKWOaIAcEgYA" client="_9wRcABDWEeKKWOaIAcEgYA">
+          <supplier xmi:type="uml:Interface" href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+          <contract href="org.jayjaybillings.math.emx#_1mR18M4CEeG6JcVkF9pruA?org.jayjaybillings.math/common/IFunction?"/>
+        </interfaceRealization>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_LnwJMBDXEeKKWOaIAcEgYA" supplier="_9wRcABDWEeKKWOaIAcEgYA" client="_qTGn0M4eEeG6JcVkF9pruA"/>
     </packagedElement>
     <profileApplication xmi:id="_LdbpBDTwEeG09e7f60ohfA">
       <eAnnotations xmi:id="_LdbpBTTwEeG09e7f60ohfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -141,4 +428,19 @@
   <Default:Documentation xmi:id="_MKa_8DTyEeG09e7f60ohfA" base_Comment="_LR-8EDTyEeG09e7f60ohfA"/>
   <Default:Documentation xmi:id="_MKc1IDTyEeG09e7f60ohfA" base_Comment="_LUk9ETTyEeG09e7f60ohfA"/>
   <JavaTransformation50:JavaArray xmi:id="_MKeqUDTyEeG09e7f60ohfA" base_TypedElement="_LUnZUDTyEeG09e7f60ohfA"/>
+  <Default:Documentation xmi:id="_gYWO4M4eEeG6JcVkF9pruA" base_Comment="_gYR9cM4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_g3EyQM4eEeG6JcVkF9pruA" base_Comment="_g3BH4M4eEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_IvG3QM4fEeG6JcVkF9pruA" base_Comment="_IvDM4M4fEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_juFwwM4gEeG6JcVkF9pruA" base_Comment="_juCGYM4gEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_c04AwM4hEeG6JcVkF9pruA" base_Comment="_c00WYM4hEeG6JcVkF9pruA"/>
+  <Default:Documentation xmi:id="_ddJ6oNUlEeGVvf4v2-60eQ" base_Comment="_dc6qENUlEeGVvf4v2-60eQ"/>
+  <Default:Documentation xmi:id="_cS12gAqBEeKEJshIfNItUA" base_Comment="_cSppQAqBEeKEJshIfNItUA"/>
+  <Default:Documentation xmi:id="_qIHkQAqBEeKEJshIfNItUA" base_Comment="_qH9zQAqBEeKEJshIfNItUA"/>
+  <Default:Documentation xmi:id="_rAmrcAqBEeKEJshIfNItUA" base_Comment="_rAjoIAqBEeKEJshIfNItUA"/>
+  <Default:Documentation xmi:id="_tGrAEAqBEeKEJshIfNItUA" base_Comment="_tGlggAqBEeKEJshIfNItUA"/>
+  <Default:Documentation xmi:id="_wgFL4AqBEeKEJshIfNItUA" base_Comment="_wgCIkAqBEeKEJshIfNItUA"/>
+  <Default:Documentation xmi:id="_3TtesBDKEeKKWOaIAcEgYA" base_Comment="_3TZ8sBDKEeKKWOaIAcEgYA"/>
+  <Default:Documentation xmi:id="_KWw44BDLEeKKWOaIAcEgYA" base_Comment="_KWqyQBDLEeKKWOaIAcEgYA"/>
+  <Default:Documentation xmi:id="_aF7C8BDXEeKKWOaIAcEgYA" base_Comment="_aF4msBDXEeKKWOaIAcEgYA"/>
+  <Default:Documentation xmi:id="_fwGXgBDXEeKKWOaIAcEgYA" base_Comment="_fwDUMBDXEeKKWOaIAcEgYA"/>
 </xmi:XMI>
