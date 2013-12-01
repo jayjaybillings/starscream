@@ -1,20 +1,30 @@
-This code has an Autoconf-enabled build system. You should be able to compile
-and install it with:
+Starscream is no longer under active development.
 
-./configure
+This code is built with CMake. After installing CMake, FFTW and GSL, you can 
+build Starscream with the following instructions.
+
+1.) Create a directory called starscream_build, somewhere outside the 
+starscream directory, and move into it. I prefer ../starscream_build.
+2.) From your starscream_build directory, run
+
+cmake ../starscream -DFFTW_INCLUDE_PATH=/opt/fftw-3.2.2_gcc-4.5.1/include/ \
+-DFFTW_LIBS_PATH=/opt/fftw-3.2.2_gcc-4.5.1/lib/ \
+-DGSL_INCLUDE_PATH=/opt/gsl-1.9_gcc-4.3/include/ \
+-DGSL_LIBS_PATH=/opt/gsl-1.9_gcc-4.3/lib/ \
+-DCMAKE_BUILD_TYPE=Release
+
+Be sure to update the paths for FFTW and GSL as needed.
+
+3.) Run the make and make install commands in the build directory.
+
 make
-make check
 make install
 
-If you have special build requirements, check 
+You can change the default installation directory by passing the argument 
+-DCMAKE_INSTALL_PREFIX=<the new directory>.
 
-./configure --help
-
-If, for some reason, you do not have autoconf or cannot build with autoconf,
-Makefile.back should work for you with some minor edits.
-
-Please don't hesitate to email the author if you have questions or comments.
+If it compiles without error, from your build directory run ./src/starscream_test.
 
 Jay Jay Billings
 jayjaybillings@gmail.com
-20100213
+20131201
