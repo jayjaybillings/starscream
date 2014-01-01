@@ -60,7 +60,8 @@ int create_galaxy(galaxy *gal, int parts[2], double m_d, double j_d, double lamb
     Instruments TI-36X Solar. Some of the constants were looked up in the literature.
     
     These values are global, but assigned values here.                               */
-    pi = 3.14159274101257;     // pi = 4.0*atan(1.0)
+    pi = 3.1415926535897932;   // pi taken from "100000 digits of pi," 
+ 			       // http://www.geom.uiuc.edu/~huberty/math5337/groupe/digits.html
     G = 6.67428E-8;            // G = 6.67428E-8 cm^3 g^-1 s^-2
     H = 2.300952983428601E-18; // 7.1E6/(1.0E3*kpc) s^-1 or 71.0 km s^-1 Mpc^-1
     unit_mass = 1.989E43;      // 1.989E43 = 1E10 Solar masses
