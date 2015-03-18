@@ -1,4 +1,7 @@
-Starscream is no longer under active development.
+Starscream is no longer under active development. I moved it to GitHub when 
+Google Code announced that they were shutting down. I keep this code around 
+for posterity as a reminder of how much I learned about software development 
+after I first wrote this code in 2008.
 
 This code is built with CMake. After installing CMake, FFTW and GSL, you can 
 build Starscream with the following instructions.
@@ -27,4 +30,4 @@ If it compiles without error, from your build directory run ./src/starscream_tes
 
 Jay Jay Billings
 jayjaybillings@gmail.com
-20131201
+20150318
